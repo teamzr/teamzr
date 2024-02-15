@@ -1,0 +1,38 @@
+{
+  "$schema": "https://json.schemastore.org/nest-cli",
+  "collection": "@nestjs/schematics",
+  "sourceRoot": "apps/teamzr/src",
+  "compilerOptions": {
+    "deleteOutDir": true,
+    "webpack": true,
+    "tsConfigPath": "apps/teamzr/tsconfig.app.json",
+    "builder": {
+      "type": "swc",
+      "options": {
+        "swcrcPath": "infrastructure/.swcrc"
+      }
+    } 
+  },
+  "monorepo": true,
+  "root": "apps/teamzr",
+  "projects": {
+    "teamzr": {
+      "type": "application",
+      "root": "apps/teamzr",
+      "entryFile": "main",
+      "sourceRoot": "apps/teamzr/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/teamzr/tsconfig.app.json"
+      }
+    },
+    "teamzr-client": {
+      "type": "application",
+      "root": "apps/teamzr-client",
+      "entryFile": "main",
+      "sourceRoot": "apps/teamzr-client/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/teamzr-client/tsconfig.app.json"
+      }
+    }
+  }
+}
