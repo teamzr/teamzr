@@ -1,0 +1,403 @@
+.statusBarBg {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.timeFrame {
+  flex: 1;
+  position: relative;
+}
+.carrier,
+.receptionIcon,
+.wifiIcon {
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.carrier {
+  width: 4.375rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 var(--padding-lg) 0 0;
+  box-sizing: border-box;
+  opacity: 0.9;
+  mix-blend-mode: normal;
+}
+.receptionIcon,
+.wifiIcon {
+  height: 0.75rem;
+  position: relative;
+}
+.wifiIcon {
+  width: 1rem;
+  object-fit: cover;
+}
+.receptionIcon {
+  width: 0.75rem;
+}
+.rectangleFrame {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-8xs) 0 0;
+}
+.batteryIcon {
+  height: 0.813rem;
+  width: 0.5rem;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.batteryIcon,
+.textTimeInstance {
+  position: relative;
+}
+.appbarMenuInstance,
+.time {
+  display: flex;
+  flex-direction: row;
+}
+.time {
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+  opacity: 0.9;
+  mix-blend-mode: normal;
+  z-index: 1;
+}
+.appbarMenuInstance {
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-12xs) 0 0;
+  gap: 0 0.563rem;
+}
+.rect,
+.statusBar {
+  align-self: stretch;
+  position: relative;
+}
+.statusBar {
+  background-color: var(--primary-dark);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: var(--padding-8xs) var(--padding-5xs) var(--padding-9xs);
+  text-align: left;
+  font-size: var(--font-size-smi);
+  color: var(--grey-white-ffffff);
+  font-family: var(--caption);
+}
+.rect {
+  flex: 1;
+  background-color: var(--primary-main-06adb7);
+  box-shadow: var(--shadow-4-app-bar);
+}
+.appBarItems {
+  height: 100%;
+  width: 100%;
+  margin: 0 !important;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.avatarIcon {
+  width: 2.5rem;
+  height: 2.5rem;
+  position: relative;
+  border-radius: var(--br-xl);
+  object-fit: cover;
+}
+.iconButtonlargeprimarydefa {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.appBarnavigationIcon {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-9xs);
+  z-index: 1;
+}
+.news {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.15px;
+  line-height: 160%;
+  font-weight: 700;
+  font-family: inherit;
+}
+.appBartitlenormal,
+.typography {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.appBartitlenormal {
+  z-index: 1;
+}
+.bottomNavigationInstance {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-sm) 0 0;
+}
+.icons {
+  height: 1.5rem;
+  width: 1.5rem;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.masterlarge {
+  height: 3rem;
+  width: 3rem;
+  border-radius: var(--br-29xl);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-xs);
+  box-sizing: border-box;
+}
+.appBaroverflowIcon,
+.iconButtonlargeprimarydefa1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.appBaroverflowIcon {
+  z-index: 1;
+}
+.icons1 {
+  height: 1.5rem;
+  width: 1.5rem;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.masterlarge1 {
+  height: 3rem;
+  width: 3rem;
+  border-radius: var(--br-29xl);
+  flex-direction: row;
+  align-items: center;
+  padding: var(--padding-xs);
+  box-sizing: border-box;
+  z-index: 1;
+}
+.appBarMenu,
+.appbarmenu,
+.frameRoot,
+.masterlarge1 {
+  display: flex;
+  justify-content: flex-start;
+}
+.appBarMenu {
+  flex: 1;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.appbarmenu,
+.frameRoot {
+  align-self: stretch;
+}
+.appbarmenu {
+  flex-direction: row;
+  align-items: center;
+  padding: var(--padding-9xs) var(--padding-xs);
+  position: relative;
+  gap: 0 1rem;
+}
+.frameRoot {
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+  font-size: var(--h6-size);
+  color: var(--grey-white-ffffff);
+  font-family: var(--button);
+}
+.icons2 {
+  height: 1.5rem;
+  width: 1.5rem;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.fab,
+.fabWrapper,
+.masterroundsmall {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.masterroundsmall {
+  height: 2.5rem;
+  width: 2.5rem;
+  border-radius: var(--br-xl);
+  background-color: var(--color-turquoise);
+  box-shadow: var(--shadow-6);
+  overflow: hidden;
+  flex-shrink: 0;
+  justify-content: flex-start;
+  padding: var(--padding-5xs);
+  box-sizing: border-box;
+}
+.fab,
+.fabWrapper {
+  justify-content: center;
+}
+.fabWrapper {
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-base);
+}
+.icons3,
+.tabOne {
+  position: relative;
+}
+.icons3 {
+  width: 1.5rem;
+  height: 1.5rem;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.tabOne {
+  letter-spacing: 0.4px;
+  line-height: 166%;
+}
+.bottomNavigation1,
+.content {
+  display: flex;
+  align-items: center;
+}
+.content {
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.bottomNavigation1 {
+  background-color: var(--grey-white-ffffff);
+  flex-direction: row;
+  justify-content: center;
+  padding: var(--padding-7xs) var(--padding-3xl) var(--padding-7xs)
+    var(--padding-5xl);
+}
+.icons4 {
+  width: 1.5rem;
+  height: 1.5rem;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.tabOne1 {
+  position: relative;
+  letter-spacing: 0.4px;
+  line-height: 166%;
+}
+.bottomNavigation2,
+.content1 {
+  display: flex;
+  align-items: center;
+}
+.content1 {
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.bottomNavigation2 {
+  background-color: var(--grey-white-ffffff);
+  flex-direction: row;
+  justify-content: center;
+  padding: var(--padding-7xs) var(--padding-base) var(--padding-7xs)
+    var(--padding-lg);
+  font-family: var(--caption);
+}
+.icons5 {
+  width: 1.5rem;
+  height: 1.5rem;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.tabOne2 {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: 0.15px;
+  line-height: 143%;
+}
+.bottomNavigation3,
+.content2 {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+.content2 {
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.bottomNavigation3 {
+  background-color: var(--grey-white-ffffff);
+  flex-direction: row;
+  justify-content: center;
+  padding: var(--padding-7xs) var(--padding-base) var(--padding-7xs)
+    var(--padding-lg);
+  font-size: var(--button-size);
+  color: var(--primary-main-06adb7);
+}
+.bottomNavigation {
+  align-self: stretch;
+  box-shadow: var(--menubar-shadow);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: center;
+  font-size: var(--caption-size);
+  color: var(--text-secondary);
+  font-family: var(--button);
+}
+.floatingActionButton,
+.oldPhone {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.floatingActionButton {
+  align-self: stretch;
+  align-items: flex-end;
+  gap: 1rem 0;
+}
+.oldPhone {
+  width: 100%;
+  position: relative;
+  background-color: var(--grey-white-ffffff);
+  overflow: hidden;
+  align-items: flex-start;
+  gap: 14.375rem 0;
+}

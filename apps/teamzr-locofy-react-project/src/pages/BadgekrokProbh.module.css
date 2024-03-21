@@ -1,0 +1,47 @@
+.frameContainerChild {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.path25Icon {
+  position: absolute;
+  top: 0.5rem;
+  left: 0.75rem;
+  width: 0.944rem;
+  height: 1.5rem;
+  z-index: 1;
+}
+.badgeIcon,
+.frameContainer {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.badgeIcon {
+  height: 28.25%;
+  width: 28.25%;
+  top: 70.5%;
+  right: 1.25%;
+  bottom: 1.25%;
+  left: 70.5%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  display: none;
+}
+.badgekrokProbh {
+  width: 100%;
+  height: 2.5rem;
+  position: relative;
+}

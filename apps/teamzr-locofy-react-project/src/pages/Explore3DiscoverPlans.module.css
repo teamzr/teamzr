@@ -1,0 +1,2997 @@
+.h6 {
+  align-self: stretch;
+  height: 2rem;
+  position: relative;
+  letter-spacing: 0.15px;
+  line-height: 160%;
+  display: none;
+}
+.typography {
+  width: 6rem;
+  display: none;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.statusBarBg {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.div {
+  flex: 1;
+  position: relative;
+}
+.carrier,
+.receptionIcon,
+.wifiIcon {
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.carrier {
+  width: 4.375rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 var(--padding-lg) 0 0;
+  box-sizing: border-box;
+  opacity: 0.9;
+  mix-blend-mode: normal;
+}
+.receptionIcon,
+.wifiIcon {
+  height: 0.75rem;
+  position: relative;
+}
+.wifiIcon {
+  width: 1rem;
+  object-fit: cover;
+}
+.receptionIcon {
+  width: 0.75rem;
+}
+.receptionWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-8xs) 0 0;
+}
+.batteryIcon {
+  height: 0.813rem;
+  width: 0.5rem;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.batteryIcon,
+.div1 {
+  position: relative;
+}
+.time,
+.wifiParent {
+  display: flex;
+  flex-direction: row;
+}
+.time {
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+  opacity: 0.9;
+  mix-blend-mode: normal;
+  z-index: 1;
+}
+.wifiParent {
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-12xs) 0 0;
+  gap: 0 0.563rem;
+}
+.rect,
+.statusBar {
+  align-self: stretch;
+  position: relative;
+}
+.statusBar {
+  background-color: var(--primary-dark);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: var(--padding-8xs) var(--padding-5xs) var(--padding-9xs);
+}
+.rect {
+  flex: 1;
+  background-color: var(--primary-main-06adb7);
+  box-shadow: var(--shadow-4-app-bar);
+}
+.appBarItems {
+  height: 100%;
+  width: 100%;
+  margin: 0 !important;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.icons {
+  height: 1.5rem;
+  width: 1.5rem;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.masterlarge {
+  height: 3rem;
+  width: 3rem;
+  border-radius: var(--br-29xl);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-xs);
+  box-sizing: border-box;
+}
+.appBarnavigationIcon,
+.iconButtonlargeprimarydefa {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.appBarnavigationIcon {
+  cursor: pointer;
+  z-index: 1;
+}
+.appbarNavigationIconFrame {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-base) 0 0;
+}
+.stepNrStep {
+  margin: 0;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.1px;
+  line-height: 140%;
+  font-weight: 700;
+  font-family: inherit;
+}
+.appBartitlenormal,
+.typography1 {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.appBartitlenormal {
+  overflow: hidden;
+  min-width: 10.063rem;
+  z-index: 1;
+}
+.icons1 {
+  height: 1.5rem;
+  width: 1.5rem;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.masterlarge2 {
+  height: 3rem;
+  width: 3rem;
+  border-radius: var(--br-29xl);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-xs);
+  box-sizing: border-box;
+}
+.iconButtonlargeprimarydefa1,
+.masterlarge1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.masterlarge1 {
+  z-index: 1;
+}
+.appbarmenu,
+.statusBarParent {
+  align-self: stretch;
+  display: flex;
+  justify-content: flex-start;
+}
+.appbarmenu {
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: var(--padding-9xs) var(--padding-9xs) var(--padding-9xs)
+    var(--padding-xs);
+  position: relative;
+  font-size: var(--subtitle3-size);
+  font-family: var(--button);
+}
+.statusBarParent {
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+  font-size: var(--font-size-smi);
+  color: var(--grey-white-ffffff);
+  font-family: var(--caption);
+}
+.h61 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.15px;
+  line-height: 160%;
+  font-weight: 700;
+  font-family: inherit;
+}
+.skillsContainer,
+.typography2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.skillsContainer {
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-base);
+}
+.iconBackground {
+  align-self: stretch;
+  height: 10.5rem;
+  position: relative;
+  border-radius: var(--br-base) var(--br-base) 0 0;
+  background-color: var(--color-lightsteelblue);
+}
+.cardChild {
+  width: 3.625rem;
+  height: 0.625rem;
+  display: none;
+  z-index: 1;
+}
+.icon120pxLaptop {
+  height: 7.5rem;
+  width: 7.5rem;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.duplicateIcon {
+  height: 2rem;
+  width: 2rem;
+  position: absolute;
+  margin: 0 !important;
+  top: -0.75rem;
+  right: 0.125rem;
+  z-index: 2;
+}
+.icon120pxLaptopParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl) 0 0;
+  position: relative;
+}
+.bookmarkIcon,
+.frameParent {
+  margin: 0 !important;
+  position: absolute;
+}
+.bookmarkIcon {
+  height: 2rem;
+  width: 2rem;
+  top: 0;
+  right: 0;
+  z-index: 1;
+}
+.frameParent {
+  width: 11.125rem;
+  top: 0.75rem;
+  right: 0.75rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: var(--padding-xs) 0 0;
+  box-sizing: border-box;
+}
+.mastericonLeftsmall {
+  height: 1.125rem;
+  width: 1rem;
+  position: relative;
+}
+.buttonText {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.4px;
+  line-height: 1.5rem;
+  text-transform: uppercase;
+}
+.content,
+.mastertextsmall {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.mastertextsmall {
+  height: 1.5rem;
+  flex: 1;
+  overflow: hidden;
+}
+.content {
+  align-self: stretch;
+  gap: 0 0.438rem;
+}
+.button,
+.masterbuttoncontainedsmall {
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.masterbuttoncontainedsmall {
+  align-self: stretch;
+  border-radius: var(--br-9xs);
+  background-color: var(--primary-main-06adb7);
+  box-shadow: var(--shadow-2);
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  padding: var(--padding-9xs) var(--padding-3xs);
+}
+.button {
+  width: 6.625rem;
+  display: none;
+  align-items: flex-start;
+  z-index: 3;
+}
+.weeks120 {
+  position: relative;
+  font-weight: 600;
+}
+.appbarTitleNormal,
+.iconsContainer,
+.laptopFrameIcon,
+.masterLargeIcon,
+.rectangleShapeIcon {
+  height: 0.625rem;
+  width: 0.675rem;
+  position: relative;
+  min-height: 0.625rem;
+}
+.appbarNavigationIcon {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 0 0.063rem;
+}
+.weeks120CopiesParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.ourTeamWas,
+.skillsOfHighly {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: 0.15px;
+}
+.skillsOfHighly {
+  margin: 0;
+  font-size: inherit;
+  line-height: 1.375rem;
+  font-weight: 400;
+  font-family: inherit;
+  padding-right: var(--padding-xs);
+}
+.ourTeamWas {
+  font-size: var(--button-size);
+  line-height: 143%;
+}
+.headingDescription {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.avatarIcon {
+  height: 2rem;
+  width: 2rem;
+  position: relative;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.glenWilliams {
+  position: relative;
+  font-weight: 600;
+}
+.weeksCopiesFrame {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0 0.5rem;
+  cursor: pointer;
+}
+.icons2 {
+  height: 1.5rem;
+  width: 1.5rem;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.fab,
+.laptopIcon,
+.masterroundsmall {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.masterroundsmall {
+  height: 2.5rem;
+  width: 2.5rem;
+  border-radius: var(--br-xl);
+  background-color: var(--color-turquoise);
+  box-shadow: var(--shadow-6);
+  overflow: hidden;
+  flex-shrink: 0;
+  justify-content: flex-start;
+  padding: var(--padding-5xs);
+  box-sizing: border-box;
+}
+.fab,
+.laptopIcon {
+  justify-content: center;
+}
+.laptopIcon {
+  align-self: stretch;
+  justify-content: space-between;
+  font-size: var(--font-size-2xs);
+  color: var(--primary-main-06adb7);
+  font-family: var(--font-open-sans);
+}
+.card,
+.frameGroup,
+.headingDescriptionParent {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.headingDescriptionParent {
+  align-self: stretch;
+  align-items: flex-start;
+  gap: 0.313rem 0;
+  font-size: var(--subtitle1-size);
+  color: var(--text-primary);
+  font-family: var(--button);
+}
+.card,
+.frameGroup {
+  gap: 0.75rem 0;
+}
+.frameGroup {
+  align-self: stretch;
+  align-items: flex-start;
+  padding: 0 var(--padding-base);
+  font-size: var(--font-size-2xs);
+  color: var(--text-secondary);
+  font-family: var(--font-open-sans);
+}
+.card {
+  width: 16.25rem;
+  border-radius: var(--br-base);
+  background-color: var(--grey-7-f2f2f2);
+  box-shadow: var(--shadow-1-card);
+  overflow: hidden;
+  flex-shrink: 0;
+  align-items: center;
+  padding: 0 0 var(--padding-xs);
+  box-sizing: border-box;
+  position: relative;
+}
+.iconBackground1 {
+  align-self: stretch;
+  height: 10.5rem;
+  position: relative;
+  border-radius: var(--br-base) var(--br-base) 0 0;
+  background-color: var(--color-lightsteelblue);
+}
+.cardItem {
+  width: 3.625rem;
+  height: 0.625rem;
+  display: none;
+  z-index: 1;
+}
+.icon120pxLaptop1 {
+  height: 7.5rem;
+  width: 7.5rem;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.duplicateIcon1 {
+  height: 2rem;
+  width: 2rem;
+  position: absolute;
+  margin: 0 !important;
+  top: -0.75rem;
+  right: 0.125rem;
+  z-index: 2;
+}
+.icon120pxLaptopGroup {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl) 0 0;
+  position: relative;
+}
+.bookmarkIcon1,
+.frameContainer {
+  margin: 0 !important;
+  position: absolute;
+}
+.bookmarkIcon1 {
+  height: 2rem;
+  width: 2rem;
+  top: 0;
+  right: 0;
+  z-index: 1;
+}
+.frameContainer {
+  width: 11.125rem;
+  top: 0.75rem;
+  right: 0.75rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: var(--padding-xs) 0 0;
+  box-sizing: border-box;
+}
+.mastericonLeftsmall1 {
+  height: 1.125rem;
+  width: 1rem;
+  position: relative;
+}
+.buttonText1 {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.4px;
+  line-height: 1.5rem;
+  text-transform: uppercase;
+}
+.content1,
+.mastertextsmall1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.mastertextsmall1 {
+  height: 1.5rem;
+  flex: 1;
+  overflow: hidden;
+}
+.content1 {
+  align-self: stretch;
+  gap: 0 0.438rem;
+}
+.button1,
+.masterbuttoncontainedsmall1 {
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.masterbuttoncontainedsmall1 {
+  align-self: stretch;
+  border-radius: var(--br-9xs);
+  background-color: var(--primary-main-06adb7);
+  box-shadow: var(--shadow-2);
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  padding: var(--padding-9xs) var(--padding-3xs);
+}
+.button1 {
+  width: 6.625rem;
+  display: none;
+  align-items: flex-start;
+  z-index: 3;
+}
+.weeks1201 {
+  width: 6.813rem;
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+}
+.bookmarkDuplicateIcon,
+.cardBackgroundFrame,
+.duplicateFrameIcon,
+.iconPxLaptop,
+.weeksCopiesFrame1 {
+  height: 0.625rem;
+  width: 0.675rem;
+  position: relative;
+  min-height: 0.625rem;
+}
+.avatarGlenFrame {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 0 0.063rem;
+}
+.weeks120CopiesGroup {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.ourTeamWas1,
+.skillsOfHighly1 {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: 0.15px;
+}
+.skillsOfHighly1 {
+  margin: 0;
+  font-size: inherit;
+  line-height: 1.375rem;
+  font-weight: 400;
+  font-family: inherit;
+  padding-right: var(--padding-xs);
+}
+.ourTeamWas1 {
+  font-size: var(--button-size);
+  line-height: 143%;
+}
+.headingDescription1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.avatarIcon1 {
+  height: 2rem;
+  width: 2rem;
+  position: relative;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.glenWilliams1 {
+  flex: 1;
+  position: relative;
+  font-weight: 600;
+}
+.appbarNavigationIcon1 {
+  width: 7.063rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0 0.5rem;
+  cursor: pointer;
+}
+.icons3,
+.masterroundsmall1 {
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.icons3 {
+  height: 1.5rem;
+  width: 1.5rem;
+  position: relative;
+}
+.masterroundsmall1 {
+  height: 2.5rem;
+  width: 2.5rem;
+  border-radius: var(--br-xl);
+  background-color: var(--color-turquoise);
+  box-shadow: var(--shadow-6);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-5xs);
+  box-sizing: border-box;
+}
+.appbarNavigationIconParent,
+.fab1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.appbarNavigationIconParent {
+  align-self: stretch;
+  justify-content: space-between;
+  font-size: var(--font-size-2xs);
+  color: var(--primary-main-06adb7);
+  font-family: var(--font-open-sans);
+}
+.card1,
+.frameDiv,
+.headingDescriptionGroup {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.headingDescriptionGroup {
+  align-self: stretch;
+  align-items: flex-start;
+  gap: 0.313rem 0;
+  font-size: var(--subtitle1-size);
+  color: var(--text-primary);
+  font-family: var(--button);
+}
+.card1,
+.frameDiv {
+  gap: 0.75rem 0;
+}
+.frameDiv {
+  align-self: stretch;
+  align-items: flex-start;
+  padding: 0 var(--padding-base);
+  font-size: var(--font-size-2xs);
+  color: var(--text-secondary);
+  font-family: var(--font-open-sans);
+}
+.card1 {
+  width: 16.25rem;
+  border-radius: var(--br-base);
+  background-color: var(--grey-7-f2f2f2);
+  box-shadow: var(--shadow-1-card);
+  overflow: hidden;
+  flex-shrink: 0;
+  align-items: center;
+  padding: 0 0 var(--padding-xs);
+  box-sizing: border-box;
+  position: relative;
+}
+.iconBackground2 {
+  align-self: stretch;
+  height: 10.5rem;
+  position: relative;
+  border-radius: var(--br-base) var(--br-base) 0 0;
+  background-color: var(--color-lightsteelblue);
+}
+.cardInner {
+  width: 3.625rem;
+  height: 0.625rem;
+  display: none;
+  z-index: 1;
+}
+.icon120pxLaptop2 {
+  height: 7.5rem;
+  width: 7.5rem;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.duplicateIcon2 {
+  height: 2rem;
+  width: 2rem;
+  position: absolute;
+  margin: 0 !important;
+  top: -0.75rem;
+  right: 0.125rem;
+  z-index: 2;
+}
+.icon120pxLaptopContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl) 0 0;
+  position: relative;
+}
+.bookmarkIcon2,
+.frameParent1 {
+  margin: 0 !important;
+  position: absolute;
+}
+.bookmarkIcon2 {
+  height: 2rem;
+  width: 2rem;
+  top: 0;
+  right: 0;
+  z-index: 1;
+}
+.frameParent1 {
+  width: 11.125rem;
+  top: 0.75rem;
+  right: 0.75rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: var(--padding-xs) 0 0;
+  box-sizing: border-box;
+}
+.mastericonLeftsmall2 {
+  height: 1.125rem;
+  width: 1rem;
+  position: relative;
+}
+.buttonText2 {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.4px;
+  line-height: 1.5rem;
+  text-transform: uppercase;
+}
+.content2,
+.mastertextsmall2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.mastertextsmall2 {
+  height: 1.5rem;
+  flex: 1;
+  overflow: hidden;
+}
+.content2 {
+  align-self: stretch;
+  gap: 0 0.438rem;
+}
+.button2,
+.masterbuttoncontainedsmall2 {
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.masterbuttoncontainedsmall2 {
+  align-self: stretch;
+  border-radius: var(--br-9xs);
+  background-color: var(--primary-main-06adb7);
+  box-shadow: var(--shadow-2);
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  padding: var(--padding-9xs) var(--padding-3xs);
+}
+.button2 {
+  width: 6.625rem;
+  display: none;
+  align-items: flex-start;
+  z-index: 3;
+}
+.weeks1202 {
+  align-self: stretch;
+  width: 6.813rem;
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+}
+.vectorIcon,
+.vectorIcon1,
+.vectorIcon2,
+.vectorIcon3,
+.vectorIcon4 {
+  height: 0.625rem;
+  width: 0.675rem;
+  position: relative;
+  min-height: 0.625rem;
+}
+.frame {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 0 0.063rem;
+}
+.weeks120CopiesContainer {
+  align-self: stretch;
+  height: 0.938rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.ourTeamWas2,
+.skillsOfHighly2 {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: 0.15px;
+}
+.skillsOfHighly2 {
+  margin: 0;
+  height: 2.75rem;
+  font-size: inherit;
+  line-height: 1.375rem;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  box-sizing: border-box;
+  padding-right: var(--padding-xs);
+}
+.ourTeamWas2 {
+  flex: 1;
+  font-size: var(--button-size);
+  line-height: 143%;
+}
+.headingDescription2 {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.avatarIcon2 {
+  height: 2rem;
+  width: 2rem;
+  position: relative;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.glenWilliams2 {
+  height: 0.938rem;
+  flex: 1;
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+}
+.avatarParent {
+  width: 7.063rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0 0.5rem;
+  cursor: pointer;
+}
+.icons4 {
+  height: 1.5rem;
+  width: 1.5rem;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.fab2,
+.frameParent3,
+.masterroundsmall2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.masterroundsmall2 {
+  height: 2.5rem;
+  width: 2.5rem;
+  border-radius: var(--br-xl);
+  background-color: var(--color-turquoise);
+  box-shadow: var(--shadow-6);
+  overflow: hidden;
+  flex-shrink: 0;
+  justify-content: flex-start;
+  padding: var(--padding-5xs);
+  box-sizing: border-box;
+}
+.fab2,
+.frameParent3 {
+  justify-content: center;
+}
+.frameParent3 {
+  align-self: stretch;
+  justify-content: space-between;
+  font-size: var(--font-size-2xs);
+  color: var(--primary-main-06adb7);
+  font-family: var(--font-open-sans);
+}
+.frameParent2,
+.headingDescriptionContainer {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 0.313rem 0;
+  font-size: var(--subtitle1-size);
+  color: var(--text-primary);
+  font-family: var(--button);
+}
+.frameParent2 {
+  padding: 0 var(--padding-base);
+  gap: 0.75rem 0;
+  font-size: var(--font-size-2xs);
+  color: var(--text-secondary);
+  font-family: var(--font-open-sans);
+}
+.card2,
+.iconBackground3 {
+  align-self: stretch;
+  position: relative;
+}
+.card2 {
+  width: 16.25rem;
+  border-radius: var(--br-base);
+  background-color: var(--grey-7-f2f2f2);
+  box-shadow: var(--shadow-1-card);
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-xs);
+  box-sizing: border-box;
+  gap: 0.75rem 0;
+}
+.iconBackground3 {
+  height: 10.5rem;
+  border-radius: var(--br-base) var(--br-base) 0 0;
+  background-color: var(--color-lightsteelblue);
+}
+.cardChild1 {
+  width: 3.625rem;
+  height: 0.625rem;
+  display: none;
+  z-index: 1;
+}
+.icon120pxLaptop3 {
+  height: 7.5rem;
+  width: 7.5rem;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.duplicateIcon3 {
+  height: 2rem;
+  width: 2rem;
+  position: absolute;
+  margin: 0 !important;
+  top: -0.75rem;
+  right: 0.125rem;
+  z-index: 2;
+}
+.icon120pxLaptopParent1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl) 0 0;
+  position: relative;
+}
+.bookmarkIcon3,
+.frameParent4 {
+  margin: 0 !important;
+  position: absolute;
+}
+.bookmarkIcon3 {
+  height: 2rem;
+  width: 2rem;
+  top: 0;
+  right: 0;
+  z-index: 1;
+}
+.frameParent4 {
+  width: 11.125rem;
+  top: 0.75rem;
+  right: 0.75rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: var(--padding-xs) 0 0;
+  box-sizing: border-box;
+}
+.mastericonLeftsmall3 {
+  height: 1.125rem;
+  width: 1rem;
+  position: relative;
+}
+.buttonText3 {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.4px;
+  line-height: 1.5rem;
+  text-transform: uppercase;
+}
+.content3,
+.mastertextsmall3 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.mastertextsmall3 {
+  height: 1.5rem;
+  flex: 1;
+  overflow: hidden;
+}
+.content3 {
+  align-self: stretch;
+  gap: 0 0.438rem;
+}
+.button3,
+.masterbuttoncontainedsmall3 {
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.masterbuttoncontainedsmall3 {
+  align-self: stretch;
+  border-radius: var(--br-9xs);
+  background-color: var(--primary-main-06adb7);
+  box-shadow: var(--shadow-2);
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  padding: var(--padding-9xs) var(--padding-3xs);
+}
+.button3 {
+  width: 6.625rem;
+  display: none;
+  align-items: flex-start;
+  z-index: 3;
+}
+.weeks1203 {
+  align-self: stretch;
+  width: 6.813rem;
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+}
+.vectorIcon5,
+.vectorIcon6,
+.vectorIcon7,
+.vectorIcon8,
+.vectorIcon9 {
+  height: 0.625rem;
+  width: 0.675rem;
+  position: relative;
+  min-height: 0.625rem;
+}
+.skillsHeader {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 0 0.063rem;
+}
+.weeks120CopiesParent1 {
+  align-self: stretch;
+  height: 0.938rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.ourTeamWas3,
+.skillsOfHighly3 {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: 0.15px;
+}
+.skillsOfHighly3 {
+  margin: 0;
+  height: 2.75rem;
+  font-size: inherit;
+  line-height: 1.375rem;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  box-sizing: border-box;
+  padding-right: var(--padding-xs);
+}
+.ourTeamWas3 {
+  flex: 1;
+  font-size: var(--button-size);
+  line-height: 143%;
+}
+.headingDescription3 {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.avatarIcon3 {
+  height: 2rem;
+  width: 2rem;
+  position: relative;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.glenWilliams3 {
+  height: 0.938rem;
+  flex: 1;
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+}
+.avatarGroup {
+  width: 7.063rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0 0.5rem;
+  cursor: pointer;
+}
+.icons5 {
+  height: 1.5rem;
+  width: 1.5rem;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.fab3,
+.frameParent6,
+.masterroundsmall3 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.masterroundsmall3 {
+  height: 2.5rem;
+  width: 2.5rem;
+  border-radius: var(--br-xl);
+  background-color: var(--color-turquoise);
+  box-shadow: var(--shadow-6);
+  overflow: hidden;
+  flex-shrink: 0;
+  justify-content: flex-start;
+  padding: var(--padding-5xs);
+  box-sizing: border-box;
+}
+.fab3,
+.frameParent6 {
+  justify-content: center;
+}
+.frameParent6 {
+  align-self: stretch;
+  justify-content: space-between;
+  font-size: var(--font-size-2xs);
+  color: var(--primary-main-06adb7);
+  font-family: var(--font-open-sans);
+}
+.card3,
+.frameParent5,
+.headingDescriptionParent1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.headingDescriptionParent1 {
+  flex: 1;
+  align-items: flex-start;
+  gap: 0.313rem 0;
+  font-size: var(--subtitle1-size);
+  color: var(--text-primary);
+  font-family: var(--button);
+}
+.card3,
+.frameParent5 {
+  gap: 0.75rem 0;
+}
+.frameParent5 {
+  flex: 1;
+  align-items: flex-start;
+  padding: 0 var(--padding-base);
+  font-size: var(--font-size-2xs);
+  color: var(--text-secondary);
+  font-family: var(--font-open-sans);
+}
+.card3 {
+  width: 16.25rem;
+  border-radius: var(--br-base);
+  background-color: var(--grey-7-f2f2f2);
+  box-shadow: var(--shadow-1-card);
+  overflow: hidden;
+  flex-shrink: 0;
+  align-items: center;
+  padding: 0 0 var(--padding-xs);
+  box-sizing: border-box;
+  position: relative;
+}
+.frameWithBookmark,
+.skillsContainerParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameWithBookmark {
+  width: 23.438rem;
+  flex: 1;
+  overflow-x: auto;
+  flex-direction: row;
+  padding: 0 0 var(--padding-12xs) var(--padding-base);
+  box-sizing: border-box;
+  gap: 0 1rem;
+  font-size: var(--button-size);
+  color: var(--grey-white-ffffff);
+}
+.skillsContainerParent {
+  height: 27.813rem;
+  flex-shrink: 0;
+  flex-direction: column;
+  gap: 0.75rem 0;
+  text-align: left;
+  font-size: var(--h6-size);
+  color: var(--text-primary);
+  font-family: var(--button);
+}
+.glenWilliams4 {
+  position: absolute;
+  bottom: 0.5rem;
+  left: 2.5rem;
+  font-weight: 600;
+  display: none;
+}
+.avatarIcon4,
+.glenWilliamsParent {
+  position: absolute;
+  height: 2rem;
+  display: none;
+}
+.avatarIcon4 {
+  bottom: 0;
+  left: 0;
+  border-radius: 50%;
+  width: 2rem;
+  object-fit: cover;
+}
+.glenWilliamsParent {
+  top: 22rem;
+  left: 1rem;
+  width: 7.063rem;
+  cursor: pointer;
+}
+.ourTeamWas4,
+.skillsOfHighly4 {
+  position: absolute;
+  left: 0;
+  letter-spacing: 0.15px;
+  display: none;
+}
+.ourTeamWas4 {
+  width: 100%;
+  top: 3.5rem;
+  line-height: 143%;
+}
+.skillsOfHighly4 {
+  width: calc(100% - 11.9px);
+  top: 0;
+  font-size: var(--subtitle1-size);
+  line-height: 1.375rem;
+}
+.headingDescription4 {
+  width: calc(100% - 32px);
+  top: 12.938rem;
+  right: 1rem;
+  left: 1rem;
+  height: 8.5rem;
+  font-size: var(--button-size);
+  color: var(--text-primary);
+  font-family: var(--button);
+}
+.headingDescription4,
+.iconBackground4,
+.weeks1204 {
+  position: absolute;
+  display: none;
+}
+.weeks1204 {
+  top: 11.25rem;
+  left: 1rem;
+  font-weight: 600;
+  color: var(--text-secondary);
+}
+.iconBackground4 {
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  border-radius: var(--br-base) var(--br-base) 0 0;
+  background-color: var(--color-lightsteelblue);
+  height: 10.5rem;
+}
+.icon120pxLaptop4 {
+  position: absolute;
+  top: 1.5rem;
+  left: calc(50% - 60px);
+  width: 7.5rem;
+  height: 7.5rem;
+  overflow: hidden;
+  display: none;
+}
+.cardChild2 {
+  position: absolute;
+  top: 9.25rem;
+  left: 11.625rem;
+  width: 3.625rem;
+  height: 0.625rem;
+  display: none;
+}
+.frame1,
+.vectorIcon10,
+.vectorIcon11,
+.vectorIcon12,
+.vectorIcon13,
+.vectorIcon14 {
+  height: 0.625rem;
+  width: 0.675rem;
+  position: relative;
+  display: none;
+}
+.frame1 {
+  position: absolute;
+  top: 11.438rem;
+  right: 1rem;
+  width: 3.625rem;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 0 0.063rem;
+}
+.bookmarkIcon4,
+.duplicateIcon4 {
+  position: absolute;
+  height: calc(100% - 368px);
+  top: 0.75rem;
+  right: 0.75rem;
+  bottom: 22.25rem;
+  max-height: 100%;
+  width: 2rem;
+  display: none;
+}
+.duplicateIcon4 {
+  right: 3.25rem;
+}
+.mastericonLeftsmall4 {
+  height: 1.125rem;
+  width: 1rem;
+  position: relative;
+}
+.buttonText4 {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.4px;
+  line-height: 1.5rem;
+  text-transform: uppercase;
+}
+.content4,
+.mastertextsmall4 {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.mastertextsmall4 {
+  overflow: hidden;
+}
+.content4 {
+  gap: 0 0.438rem;
+}
+.button4,
+.masterbuttoncontainedsmall4 {
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.masterbuttoncontainedsmall4 {
+  align-self: stretch;
+  flex: 1;
+  border-radius: var(--br-9xs);
+  background-color: var(--primary-main-06adb7);
+  box-shadow: var(--shadow-2);
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  padding: var(--padding-9xs) var(--padding-3xs);
+}
+.button4 {
+  position: absolute;
+  right: 1rem;
+  bottom: 1rem;
+  display: none;
+  align-items: flex-start;
+  font-size: var(--button-size);
+  color: var(--grey-white-ffffff);
+  font-family: var(--button);
+}
+.icons6 {
+  height: 1.5rem;
+  width: 1.5rem;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.fab4,
+.masterroundsmall4 {
+  width: 2.5rem;
+  height: 2.5rem;
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.masterroundsmall4 {
+  border-radius: var(--br-xl);
+  background-color: var(--color-turquoise);
+  box-shadow: var(--shadow-6);
+  overflow: hidden;
+  flex-shrink: 0;
+  padding: var(--padding-5xs);
+  box-sizing: border-box;
+}
+.fab4 {
+  position: absolute;
+  top: 21.75rem;
+  left: 12.75rem;
+}
+.card4 {
+  height: 25rem;
+  width: 16.25rem;
+  position: relative;
+  border-radius: var(--br-base);
+  background-color: var(--grey-7-f2f2f2);
+  box-shadow: var(--shadow-1-card);
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.glenWilliams5 {
+  position: absolute;
+  bottom: 0.5rem;
+  left: 2.5rem;
+  font-weight: 600;
+  display: none;
+}
+.avatarIcon5,
+.glenWilliamsGroup {
+  position: absolute;
+  height: 2rem;
+  display: none;
+}
+.avatarIcon5 {
+  bottom: 0;
+  left: 0;
+  border-radius: 50%;
+  width: 2rem;
+  object-fit: cover;
+}
+.glenWilliamsGroup {
+  top: 22rem;
+  left: 1rem;
+  width: 7.063rem;
+  cursor: pointer;
+}
+.ourTeamWas5,
+.skillsOfHighly5 {
+  position: absolute;
+  left: 0;
+  letter-spacing: 0.15px;
+  display: none;
+}
+.ourTeamWas5 {
+  width: 100%;
+  top: 3.5rem;
+  line-height: 143%;
+}
+.skillsOfHighly5 {
+  width: calc(100% - 11.9px);
+  top: 0;
+  font-size: var(--subtitle1-size);
+  line-height: 1.375rem;
+}
+.headingDescription5 {
+  width: calc(100% - 32px);
+  top: 12.938rem;
+  right: 1rem;
+  left: 1rem;
+  height: 8.5rem;
+  font-size: var(--button-size);
+  color: var(--text-primary);
+  font-family: var(--button);
+}
+.headingDescription5,
+.iconBackground5,
+.weeks1205 {
+  position: absolute;
+  display: none;
+}
+.weeks1205 {
+  top: 11.25rem;
+  left: 1rem;
+  font-weight: 600;
+  color: var(--text-secondary);
+}
+.iconBackground5 {
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  border-radius: var(--br-base) var(--br-base) 0 0;
+  background-color: var(--color-lightsteelblue);
+  height: 10.5rem;
+}
+.icon120pxLaptop5 {
+  position: absolute;
+  top: 1.5rem;
+  left: calc(50% - 60px);
+  width: 7.5rem;
+  height: 7.5rem;
+  overflow: hidden;
+  display: none;
+}
+.cardChild3 {
+  position: absolute;
+  top: 9.25rem;
+  left: 11.625rem;
+  width: 3.625rem;
+  height: 0.625rem;
+  display: none;
+}
+.frame2,
+.vectorIcon15,
+.vectorIcon16,
+.vectorIcon17,
+.vectorIcon18,
+.vectorIcon19 {
+  height: 0.625rem;
+  width: 0.675rem;
+  position: relative;
+  display: none;
+}
+.frame2 {
+  position: absolute;
+  top: 11.438rem;
+  right: 1rem;
+  width: 3.625rem;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 0 0.063rem;
+}
+.bookmarkIcon5,
+.duplicateIcon5 {
+  position: absolute;
+  height: calc(100% - 368px);
+  top: 0.75rem;
+  right: 0.75rem;
+  bottom: 22.25rem;
+  max-height: 100%;
+  width: 2rem;
+  display: none;
+}
+.duplicateIcon5 {
+  right: 3.25rem;
+}
+.mastericonLeftsmall5 {
+  height: 1.125rem;
+  width: 1rem;
+  position: relative;
+}
+.buttonText5 {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.4px;
+  line-height: 1.5rem;
+  text-transform: uppercase;
+}
+.content5,
+.mastertextsmall5 {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.mastertextsmall5 {
+  overflow: hidden;
+}
+.content5 {
+  gap: 0 0.438rem;
+}
+.button5,
+.masterbuttoncontainedsmall5 {
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.masterbuttoncontainedsmall5 {
+  align-self: stretch;
+  flex: 1;
+  border-radius: var(--br-9xs);
+  background-color: var(--primary-main-06adb7);
+  box-shadow: var(--shadow-2);
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  padding: var(--padding-9xs) var(--padding-3xs);
+}
+.button5 {
+  position: absolute;
+  right: 1rem;
+  bottom: 1rem;
+  display: none;
+  align-items: flex-start;
+  font-size: var(--button-size);
+  color: var(--grey-white-ffffff);
+  font-family: var(--button);
+}
+.icons7 {
+  height: 1.5rem;
+  width: 1.5rem;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.fab5,
+.masterroundsmall5 {
+  width: 2.5rem;
+  height: 2.5rem;
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.masterroundsmall5 {
+  border-radius: var(--br-xl);
+  background-color: var(--color-turquoise);
+  box-shadow: var(--shadow-6);
+  overflow: hidden;
+  flex-shrink: 0;
+  padding: var(--padding-5xs);
+  box-sizing: border-box;
+}
+.fab5 {
+  position: absolute;
+  top: 21.75rem;
+  left: 12.75rem;
+}
+.card5 {
+  height: 25rem;
+  width: 16.25rem;
+  position: relative;
+  border-radius: var(--br-base);
+  background-color: var(--grey-7-f2f2f2);
+  box-shadow: var(--shadow-1-card);
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.glenWilliams6 {
+  position: absolute;
+  bottom: 0.5rem;
+  left: 2.5rem;
+  font-weight: 600;
+  display: none;
+}
+.avatarIcon6,
+.glenWilliamsContainer {
+  position: absolute;
+  height: 2rem;
+  display: none;
+}
+.avatarIcon6 {
+  bottom: 0;
+  left: 0;
+  border-radius: 50%;
+  width: 2rem;
+  object-fit: cover;
+}
+.glenWilliamsContainer {
+  top: 22rem;
+  left: 1rem;
+  width: 7.063rem;
+  cursor: pointer;
+}
+.ourTeamWas6,
+.skillsOfHighly6 {
+  position: absolute;
+  left: 0;
+  letter-spacing: 0.15px;
+  display: none;
+}
+.ourTeamWas6 {
+  width: 100%;
+  top: 3.5rem;
+  line-height: 143%;
+}
+.skillsOfHighly6 {
+  width: calc(100% - 11.9px);
+  top: 0;
+  font-size: var(--subtitle1-size);
+  line-height: 1.375rem;
+}
+.headingDescription6 {
+  width: calc(100% - 32px);
+  top: 12.938rem;
+  right: 1rem;
+  left: 1rem;
+  height: 8.5rem;
+  font-size: var(--button-size);
+  color: var(--text-primary);
+  font-family: var(--button);
+}
+.headingDescription6,
+.iconBackground6,
+.weeks1206 {
+  position: absolute;
+  display: none;
+}
+.weeks1206 {
+  top: 11.25rem;
+  left: 1rem;
+  font-weight: 600;
+  color: var(--text-secondary);
+}
+.iconBackground6 {
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  border-radius: var(--br-base) var(--br-base) 0 0;
+  background-color: var(--color-lightsteelblue);
+  height: 10.5rem;
+}
+.icon120pxLaptop6 {
+  position: absolute;
+  top: 1.5rem;
+  left: calc(50% - 60px);
+  width: 7.5rem;
+  height: 7.5rem;
+  overflow: hidden;
+  display: none;
+}
+.cardChild4 {
+  position: absolute;
+  top: 9.25rem;
+  left: 11.625rem;
+  width: 3.625rem;
+  height: 0.625rem;
+  display: none;
+}
+.frame3,
+.vectorIcon20,
+.vectorIcon21,
+.vectorIcon22,
+.vectorIcon23,
+.vectorIcon24 {
+  height: 0.625rem;
+  width: 0.675rem;
+  position: relative;
+  display: none;
+}
+.frame3 {
+  position: absolute;
+  top: 11.438rem;
+  right: 1rem;
+  width: 3.625rem;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 0 0.063rem;
+}
+.bookmarkIcon6,
+.duplicateIcon6 {
+  position: absolute;
+  height: calc(100% - 368px);
+  top: 0.75rem;
+  right: 0.75rem;
+  bottom: 22.25rem;
+  max-height: 100%;
+  width: 2rem;
+  display: none;
+}
+.duplicateIcon6 {
+  right: 3.25rem;
+}
+.mastericonLeftsmall6 {
+  height: 1.125rem;
+  width: 1rem;
+  position: relative;
+}
+.buttonText6 {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.4px;
+  line-height: 1.5rem;
+  text-transform: uppercase;
+}
+.content6,
+.mastertextsmall6 {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.mastertextsmall6 {
+  overflow: hidden;
+}
+.content6 {
+  gap: 0 0.438rem;
+}
+.button6,
+.masterbuttoncontainedsmall6 {
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.masterbuttoncontainedsmall6 {
+  align-self: stretch;
+  flex: 1;
+  border-radius: var(--br-9xs);
+  background-color: var(--primary-main-06adb7);
+  box-shadow: var(--shadow-2);
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  padding: var(--padding-9xs) var(--padding-3xs);
+}
+.button6 {
+  position: absolute;
+  right: 1rem;
+  bottom: 1rem;
+  display: none;
+  align-items: flex-start;
+  font-size: var(--button-size);
+  color: var(--grey-white-ffffff);
+  font-family: var(--button);
+}
+.icons8 {
+  height: 1.5rem;
+  width: 1.5rem;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.fab6,
+.masterroundsmall6 {
+  width: 2.5rem;
+  height: 2.5rem;
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.masterroundsmall6 {
+  border-radius: var(--br-xl);
+  background-color: var(--color-turquoise);
+  box-shadow: var(--shadow-6);
+  overflow: hidden;
+  flex-shrink: 0;
+  padding: var(--padding-5xs);
+  box-sizing: border-box;
+}
+.fab6 {
+  position: absolute;
+  top: 21.75rem;
+  left: 12.75rem;
+}
+.card6,
+.cardParent {
+  flex-shrink: 0;
+  display: none;
+}
+.card6 {
+  height: 25rem;
+  width: 16.25rem;
+  position: relative;
+  border-radius: var(--br-base);
+  background-color: var(--grey-7-f2f2f2);
+  box-shadow: var(--shadow-1-card);
+  overflow: hidden;
+}
+.cardParent {
+  align-self: stretch;
+  height: 25.75rem;
+  overflow-x: auto;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-base);
+  box-sizing: border-box;
+  gap: 0 0.875rem;
+  font-size: var(--font-size-2xs);
+  color: var(--primary-main-06adb7);
+  font-family: var(--font-open-sans);
+}
+.icons9 {
+  height: 1.5rem;
+  width: 1.5rem;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.fab7,
+.masterroundsmall7 {
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.masterroundsmall7 {
+  height: 2.5rem;
+  width: 2.5rem;
+  border-radius: var(--br-xl);
+  background-color: var(--color-turquoise);
+  box-shadow: var(--shadow-6);
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  padding: var(--padding-5xs);
+  box-sizing: border-box;
+}
+.fab7 {
+  display: none;
+}
+.h62 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.15px;
+  line-height: 160%;
+  font-weight: 700;
+  font-family: inherit;
+}
+.typography3,
+.typographyWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.typographyWrapper {
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-base);
+}
+.iconBackground7 {
+  align-self: stretch;
+  height: 10.5rem;
+  position: relative;
+  border-radius: var(--br-base) var(--br-base) 0 0;
+  background-color: var(--color-lightsteelblue);
+}
+.cardChild5 {
+  width: 3.625rem;
+  height: 0.625rem;
+  display: none;
+  z-index: 1;
+}
+.icon120pxLaptop7 {
+  height: 7.5rem;
+  width: 7.5rem;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.duplicateIcon7 {
+  height: 2rem;
+  width: 2rem;
+  position: absolute;
+  margin: 0 !important;
+  top: -0.75rem;
+  right: 0.125rem;
+  z-index: 2;
+}
+.icon120pxLaptopParent2 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl) 0 0;
+  position: relative;
+}
+.bookmarkIcon7,
+.frameParent7 {
+  margin: 0 !important;
+  position: absolute;
+}
+.bookmarkIcon7 {
+  height: 2rem;
+  width: 2rem;
+  top: 0;
+  right: 0;
+  z-index: 1;
+}
+.frameParent7 {
+  width: 11.125rem;
+  top: 0.75rem;
+  right: 0.75rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: var(--padding-xs) 0 0;
+  box-sizing: border-box;
+}
+.mastericonLeftsmall7 {
+  height: 1.125rem;
+  width: 1rem;
+  position: relative;
+}
+.buttonText7 {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.4px;
+  line-height: 1.5rem;
+  text-transform: uppercase;
+}
+.content7,
+.mastertextsmall7 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.mastertextsmall7 {
+  height: 1.5rem;
+  flex: 1;
+  overflow: hidden;
+}
+.content7 {
+  align-self: stretch;
+  gap: 0 0.438rem;
+}
+.button7,
+.masterbuttoncontainedsmall7 {
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.masterbuttoncontainedsmall7 {
+  align-self: stretch;
+  border-radius: var(--br-9xs);
+  background-color: var(--primary-main-06adb7);
+  box-shadow: var(--shadow-2);
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  padding: var(--padding-9xs) var(--padding-3xs);
+}
+.button7 {
+  width: 6.625rem;
+  display: none;
+  align-items: flex-start;
+  z-index: 3;
+}
+.weeks1207 {
+  position: relative;
+  font-weight: 600;
+}
+.vectorIcon25,
+.vectorIcon26,
+.vectorIcon27,
+.vectorIcon28,
+.vectorIcon29 {
+  height: 0.625rem;
+  width: 0.675rem;
+  position: relative;
+  min-height: 0.625rem;
+}
+.frame4 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 0 0.063rem;
+}
+.weeks120CopiesParent2 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.ourTeamWas7,
+.skillsOfHighly7 {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: 0.15px;
+}
+.skillsOfHighly7 {
+  margin: 0;
+  height: 2.75rem;
+  font-size: inherit;
+  line-height: 1.375rem;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  box-sizing: border-box;
+  padding-right: var(--padding-xs);
+}
+.ourTeamWas7 {
+  flex: 1;
+  font-size: var(--button-size);
+  line-height: 143%;
+}
+.headingDescription7 {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0;
+  gap: var(--gap-xs);
+}
+.avatarIcon7 {
+  height: 2rem;
+  width: 2rem;
+  position: relative;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.glenWilliams7 {
+  height: 0.938rem;
+  flex: 1;
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+}
+.avatarContainer {
+  width: 7.063rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0;
+  box-sizing: border-box;
+  gap: 0 0.5rem;
+  cursor: pointer;
+}
+.icons10 {
+  height: 1.5rem;
+  width: 1.5rem;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.fab8,
+.frameParent9,
+.masterroundsmall8 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.masterroundsmall8 {
+  height: 2.5rem;
+  width: 2.5rem;
+  border-radius: var(--br-xl);
+  background-color: var(--color-turquoise);
+  box-shadow: var(--shadow-6);
+  overflow: hidden;
+  flex-shrink: 0;
+  justify-content: flex-start;
+  padding: var(--padding-5xs);
+  box-sizing: border-box;
+}
+.fab8,
+.frameParent9 {
+  justify-content: center;
+  padding: 0;
+}
+.frameParent9 {
+  align-self: stretch;
+  justify-content: space-between;
+  font-size: var(--font-size-2xs);
+  color: var(--primary-main-06adb7);
+  font-family: var(--font-open-sans);
+}
+.card7,
+.frameParent8,
+.headingDescriptionParent2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.headingDescriptionParent2 {
+  align-self: stretch;
+  flex: 1;
+  align-items: flex-start;
+  padding: 0;
+  gap: 0.313rem 0;
+  font-size: var(--subtitle1-size);
+  color: var(--text-primary);
+  font-family: var(--button);
+}
+.card7,
+.frameParent8 {
+  gap: 0.75rem 0;
+}
+.frameParent8 {
+  align-self: stretch;
+  height: 13rem;
+  align-items: flex-start;
+  padding: 0 var(--padding-base) 0;
+  box-sizing: border-box;
+  font-size: var(--font-size-2xs);
+  color: var(--text-secondary);
+  font-family: var(--font-open-sans);
+}
+.card7 {
+  height: 25rem;
+  width: 16.25rem;
+  border-radius: var(--br-base);
+  background-color: var(--grey-7-f2f2f2);
+  box-shadow: var(--shadow-1-card);
+  overflow: hidden;
+  flex-shrink: 0;
+  align-items: center;
+  position: relative;
+  font-size: var(--button-size);
+  color: var(--grey-white-ffffff);
+}
+.iconBackground8 {
+  align-self: stretch;
+  height: 10.5rem;
+  position: relative;
+  border-radius: var(--br-base) var(--br-base) 0 0;
+  background-color: var(--color-lightsteelblue);
+}
+.icon120pxLaptop8 {
+  height: 7.5rem;
+  width: 7.5rem;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.duplicateIcon8 {
+  height: 2rem;
+  width: 2rem;
+  position: absolute;
+  margin: 0 !important;
+  top: -0.75rem;
+  right: -1.125rem;
+  z-index: 2;
+}
+.icon120pxLaptopParent3 {
+  margin: 0 !important;
+  position: absolute;
+  top: 1.5rem;
+  left: 4.375rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.cardChild6 {
+  width: 3.625rem;
+  height: 0.625rem;
+  display: none;
+  z-index: 2;
+}
+.weeks1208 {
+  width: 6.813rem;
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+}
+.frameWifiIcon,
+.frameWifiIcon1 {
+  height: 100%;
+  width: 0.675rem;
+  position: absolute;
+  margin: 0 !important;
+  top: 0.031rem;
+  bottom: -0.031rem;
+  max-height: 100%;
+}
+.frameWifiIcon {
+  left: 0;
+}
+.frameWifiIcon1 {
+  left: 0.738rem;
+}
+.frameWifiIcon2 {
+  right: 1.475rem;
+}
+.batteryFrameIcon,
+.frameReceptionIcon,
+.frameWifiIcon2 {
+  height: 100%;
+  width: 0.675rem;
+  position: absolute;
+  margin: 0 !important;
+  top: 0.031rem;
+  bottom: -0.031rem;
+  max-height: 100%;
+}
+.frameReceptionIcon {
+  right: 0.738rem;
+}
+.batteryFrameIcon {
+  right: 0;
+}
+.frame5 {
+  height: 0.625rem;
+  width: 3.625rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  gap: 0 0.063rem;
+}
+.weeks120CopiesParent3 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 var(--padding-base);
+  font-family: var(--font-open-sans);
+}
+.bookmarkIcon8 {
+  width: 2rem;
+  height: 2rem;
+  position: absolute;
+  margin: 0 !important;
+  top: 0.75rem;
+  right: 0.75rem;
+  z-index: 1;
+}
+.mastericonLeftsmall8 {
+  height: 1.125rem;
+  width: 1rem;
+  position: relative;
+}
+.buttonText8 {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.4px;
+  line-height: 1.5rem;
+  text-transform: uppercase;
+}
+.content8,
+.mastertextsmall8 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.mastertextsmall8 {
+  height: 1.5rem;
+  flex: 1;
+  overflow: hidden;
+}
+.content8 {
+  align-self: stretch;
+  gap: 0 0.438rem;
+}
+.button8,
+.masterbuttoncontainedsmall8 {
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.masterbuttoncontainedsmall8 {
+  align-self: stretch;
+  border-radius: var(--br-9xs);
+  background-color: var(--primary-main-06adb7);
+  box-shadow: var(--shadow-2);
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  padding: var(--padding-9xs) var(--padding-3xs);
+}
+.button8 {
+  width: 6.625rem;
+  display: none;
+  align-items: flex-start;
+  z-index: 5;
+  font-size: var(--button-size);
+  color: var(--grey-white-ffffff);
+}
+.ourTeamWas8,
+.skillsOfHighly8 {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: 0.15px;
+}
+.skillsOfHighly8 {
+  margin: 0;
+  height: 2.75rem;
+  font-size: inherit;
+  line-height: 1.375rem;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  box-sizing: border-box;
+  padding-right: var(--padding-xs);
+}
+.ourTeamWas8 {
+  flex: 1;
+  font-size: var(--button-size);
+  line-height: 143%;
+}
+.headingDescription8 {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0;
+  gap: var(--gap-xs);
+}
+.glenWilliams8 {
+  height: 0.938rem;
+  flex: 1;
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+}
+.avatarIcon8 {
+  height: 100%;
+  width: 2rem;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: 50%;
+  max-height: 100%;
+  object-fit: cover;
+}
+.statusBarFrame {
+  height: 2rem;
+  width: 7.063rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  padding: var(--padding-4xs) 0 0 var(--padding-21xl);
+  box-sizing: border-box;
+  position: relative;
+  cursor: pointer;
+}
+.icons11 {
+  height: 1.5rem;
+  width: 1.5rem;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.fab9,
+.glenFrame,
+.masterroundsmall9 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.masterroundsmall9 {
+  height: 2.5rem;
+  width: 2.5rem;
+  border-radius: var(--br-xl);
+  background-color: var(--color-turquoise);
+  box-shadow: var(--shadow-6);
+  overflow: hidden;
+  flex-shrink: 0;
+  justify-content: flex-start;
+  padding: var(--padding-5xs);
+  box-sizing: border-box;
+}
+.fab9,
+.glenFrame {
+  justify-content: center;
+  padding: 0;
+}
+.glenFrame {
+  align-self: stretch;
+  justify-content: space-between;
+  font-size: var(--font-size-2xs);
+  color: var(--primary-main-06adb7);
+  font-family: var(--font-open-sans);
+}
+.card8,
+.descriptionCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.descriptionCard {
+  align-self: stretch;
+  height: 11.313rem;
+  align-items: flex-start;
+  padding: 0 var(--padding-base) 0;
+  box-sizing: border-box;
+  gap: 0.313rem 0;
+  font-size: var(--subtitle1-size);
+  color: var(--text-primary);
+}
+.card8 {
+  height: 25rem;
+  width: 16.25rem;
+  border-radius: var(--br-base);
+  background-color: var(--grey-7-f2f2f2);
+  box-shadow: var(--shadow-1-card);
+  overflow: hidden;
+  flex-shrink: 0;
+  align-items: center;
+  position: relative;
+  gap: 0.75rem 0;
+}
+.iconBackground9 {
+  align-self: stretch;
+  height: 10.5rem;
+  position: relative;
+  border-radius: var(--br-base) var(--br-base) 0 0;
+  background-color: var(--color-lightsteelblue);
+}
+.icon120pxLaptop9 {
+  height: 7.5rem;
+  width: 7.5rem;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.duplicateIcon9 {
+  height: 2rem;
+  width: 2rem;
+  position: absolute;
+  margin: 0 !important;
+  top: -0.75rem;
+  right: -1.125rem;
+  z-index: 2;
+}
+.icon120pxLaptopParent4 {
+  margin: 0 !important;
+  position: absolute;
+  top: 1.5rem;
+  left: 4.375rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.cardChild7 {
+  width: 3.625rem;
+  height: 0.625rem;
+  display: none;
+  z-index: 2;
+}
+.weeks1209 {
+  width: 6.813rem;
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+}
+.skillsBannerIcon,
+.skillsBannerIcon1 {
+  height: 100%;
+  width: 0.675rem;
+  position: absolute;
+  margin: 0 !important;
+  top: 0.031rem;
+  bottom: -0.031rem;
+  max-height: 100%;
+}
+.skillsBannerIcon {
+  left: 0;
+}
+.skillsBannerIcon1 {
+  left: 0.738rem;
+}
+.skillsBannerIcon2 {
+  right: 1.475rem;
+}
+.skillsBannerIcon2,
+.skillsBannerIcon3,
+.skillsBannerIcon4 {
+  height: 100%;
+  width: 0.675rem;
+  position: absolute;
+  margin: 0 !important;
+  top: 0.031rem;
+  bottom: -0.031rem;
+  max-height: 100%;
+}
+.skillsBannerIcon3 {
+  right: 0.738rem;
+}
+.skillsBannerIcon4 {
+  right: 0;
+}
+.frame6 {
+  height: 0.625rem;
+  width: 3.625rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  gap: 0 0.063rem;
+}
+.weeks120CopiesParent4 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 var(--padding-base);
+  font-family: var(--font-open-sans);
+}
+.bookmarkIcon9 {
+  width: 2rem;
+  height: 2rem;
+  position: absolute;
+  margin: 0 !important;
+  top: 0.75rem;
+  right: 0.75rem;
+  z-index: 1;
+}
+.mastericonLeftsmall9 {
+  height: 1.125rem;
+  width: 1rem;
+  position: relative;
+}
+.buttonText9 {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.4px;
+  line-height: 1.5rem;
+  text-transform: uppercase;
+}
+.content9,
+.mastertextsmall9 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.mastertextsmall9 {
+  height: 1.5rem;
+  flex: 1;
+  overflow: hidden;
+}
+.content9 {
+  align-self: stretch;
+  gap: 0 0.438rem;
+}
+.button9,
+.masterbuttoncontainedsmall9 {
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.masterbuttoncontainedsmall9 {
+  align-self: stretch;
+  border-radius: var(--br-9xs);
+  background-color: var(--primary-main-06adb7);
+  box-shadow: var(--shadow-2);
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  padding: var(--padding-9xs) var(--padding-3xs);
+}
+.button9 {
+  width: 6.625rem;
+  display: none;
+  align-items: flex-start;
+  z-index: 5;
+  font-size: var(--button-size);
+  color: var(--grey-white-ffffff);
+}
+.ourTeamWas9,
+.skillsOfHighly9 {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: 0.15px;
+}
+.skillsOfHighly9 {
+  margin: 0;
+  height: 2.75rem;
+  font-size: inherit;
+  line-height: 1.375rem;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  box-sizing: border-box;
+  padding-right: var(--padding-xs);
+}
+.ourTeamWas9 {
+  flex: 1;
+  font-size: var(--button-size);
+  line-height: 143%;
+}
+.headingDescription9 {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0;
+  gap: var(--gap-xs);
+}
+.glenWilliams9 {
+  height: 0.938rem;
+  flex: 1;
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+}
+.avatarIcon9 {
+  height: 100%;
+  width: 2rem;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: 50%;
+  max-height: 100%;
+  object-fit: cover;
+}
+.avatarFrame {
+  height: 2rem;
+  width: 7.063rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  padding: var(--padding-4xs) 0 0 var(--padding-21xl);
+  box-sizing: border-box;
+  position: relative;
+  cursor: pointer;
+}
+.icons12 {
+  height: 1.5rem;
+  width: 1.5rem;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.fab10,
+.glenFrame1,
+.masterroundsmall10 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.masterroundsmall10 {
+  height: 2.5rem;
+  width: 2.5rem;
+  border-radius: var(--br-xl);
+  background-color: var(--color-turquoise);
+  box-shadow: var(--shadow-6);
+  overflow: hidden;
+  flex-shrink: 0;
+  justify-content: flex-start;
+  padding: var(--padding-5xs);
+  box-sizing: border-box;
+}
+.fab10,
+.glenFrame1 {
+  justify-content: center;
+  padding: 0;
+}
+.glenFrame1 {
+  align-self: stretch;
+  justify-content: space-between;
+  font-size: var(--font-size-2xs);
+  color: var(--primary-main-06adb7);
+  font-family: var(--font-open-sans);
+}
+.card9,
+.descriptionCard1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.descriptionCard1 {
+  align-self: stretch;
+  height: 11.313rem;
+  align-items: flex-start;
+  padding: 0 var(--padding-base) 0;
+  box-sizing: border-box;
+  gap: 0.313rem 0;
+  font-size: var(--subtitle1-size);
+  color: var(--text-primary);
+}
+.card9 {
+  height: 25rem;
+  width: 16.25rem;
+  border-radius: var(--br-base);
+  background-color: var(--grey-7-f2f2f2);
+  box-shadow: var(--shadow-1-card);
+  overflow: hidden;
+  flex-shrink: 0;
+  align-items: center;
+  position: relative;
+  gap: 0.75rem 0;
+}
+.cardGroup,
+.explore3DiscoverPlans,
+.frameSection {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: left;
+  font-family: var(--button);
+}
+.cardGroup {
+  width: 23.438rem;
+  height: 12.25rem;
+  overflow-x: auto;
+  flex-shrink: 0;
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-base);
+  box-sizing: border-box;
+  gap: 0 0.875rem;
+  font-size: var(--font-size-2xs);
+  color: var(--text-secondary);
+}
+.explore3DiscoverPlans,
+.frameSection {
+  flex-direction: column;
+  font-size: var(--h6-size);
+  color: var(--text-primary);
+}
+.frameSection {
+  height: 27.813rem;
+  flex-shrink: 0;
+  padding: 0;
+  box-sizing: border-box;
+  gap: 0.75rem 0;
+}
+.explore3DiscoverPlans {
+  width: 100%;
+  height: 50.75rem;
+  position: relative;
+  background-color: var(--grey-white-ffffff);
+  overflow-y: auto;
+  gap: 1.438rem 0;
+}

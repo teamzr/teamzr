@@ -1,0 +1,2736 @@
+.statusBarBg {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.div {
+  flex: 1;
+  position: relative;
+}
+.carrier,
+.receptionIcon,
+.wifiIcon {
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.carrier {
+  width: 4.375rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 var(--padding-lg) 0 0;
+  box-sizing: border-box;
+  opacity: 0.9;
+  mix-blend-mode: normal;
+}
+.receptionIcon,
+.wifiIcon {
+  height: 0.75rem;
+  position: relative;
+}
+.wifiIcon {
+  width: 1rem;
+  object-fit: cover;
+}
+.receptionIcon {
+  width: 0.75rem;
+}
+.receptionWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-8xs) 0 0;
+}
+.batteryIcon {
+  height: 0.813rem;
+  width: 0.5rem;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.batteryIcon,
+.div1 {
+  position: relative;
+}
+.appbarTime,
+.time {
+  display: flex;
+  flex-direction: row;
+}
+.time {
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+  opacity: 0.9;
+  mix-blend-mode: normal;
+  z-index: 1;
+}
+.appbarTime {
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-12xs) 0 0;
+  gap: 0 0.563rem;
+}
+.rect,
+.statusBar {
+  align-self: stretch;
+  position: relative;
+}
+.statusBar {
+  background-color: var(--primary-dark);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: var(--padding-8xs) var(--padding-5xs) var(--padding-9xs);
+}
+.rect {
+  flex: 1;
+  background-color: var(--primary-main-06adb7);
+  box-shadow: var(--shadow-4-app-bar);
+}
+.appBarItems {
+  height: 100%;
+  width: 100%;
+  margin: 0 !important;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.icons {
+  height: 1.5rem;
+  width: 1.5rem;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.masterlarge {
+  height: 3rem;
+  width: 3rem;
+  border-radius: var(--br-29xl);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-xs);
+  box-sizing: border-box;
+}
+.appBarnavigationIcon,
+.iconButtonlargeprimarydefa {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.appBarnavigationIcon {
+  cursor: pointer;
+  z-index: 1;
+}
+.appBarMenuIcon {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-base) 0 0;
+}
+.stepNrStep {
+  margin: 0;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.1px;
+  line-height: 140%;
+  font-weight: 700;
+  font-family: inherit;
+}
+.appBartitlenormal,
+.typography {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.appBartitlenormal {
+  overflow: hidden;
+  min-width: 10.063rem;
+  z-index: 1;
+}
+.icons1 {
+  height: 1.5rem;
+  width: 1.5rem;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.masterlarge2 {
+  height: 3rem;
+  width: 3rem;
+  border-radius: var(--br-29xl);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-xs);
+  box-sizing: border-box;
+}
+.iconButtonlargeprimarydefa1,
+.masterlarge1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.masterlarge1 {
+  z-index: 1;
+}
+.appbarmenu,
+.statusBarLayout {
+  align-self: stretch;
+  display: flex;
+  justify-content: flex-start;
+}
+.appbarmenu {
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: var(--padding-9xs) var(--padding-9xs) var(--padding-9xs)
+    var(--padding-xs);
+  position: relative;
+  font-size: var(--subtitle3-size);
+  font-family: var(--button);
+}
+.statusBarLayout {
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+  font-size: var(--font-size-smi);
+  color: var(--grey-white-ffffff);
+  font-family: var(--caption);
+}
+.h6 {
+  align-self: stretch;
+  height: 2rem;
+  position: relative;
+  letter-spacing: 0.15px;
+  line-height: 160%;
+  display: none;
+}
+.typography1 {
+  width: 6rem;
+  display: none;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.h61 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.15px;
+  line-height: 160%;
+  font-weight: 700;
+  font-family: inherit;
+}
+.text,
+.typography2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.text {
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-base);
+}
+.iconBackground {
+  align-self: stretch;
+  height: 10.5rem;
+  position: relative;
+  border-radius: var(--br-base) var(--br-base) 0 0;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.cardChild {
+  width: 3.625rem;
+  height: 0.625rem;
+  display: none;
+}
+.followers,
+.plansShared {
+  position: relative;
+  font-weight: 600;
+}
+.followers {
+  text-align: right;
+}
+.vector {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 0 0 var(--padding-8xs);
+}
+.ashleyBradley {
+  margin: 0;
+  font-size: inherit;
+  letter-spacing: 0.15px;
+  line-height: 1.375rem;
+  font-weight: 400;
+  font-family: inherit;
+}
+.ashleyBradley,
+.forAQuarter,
+.weeklySugarFreeDays {
+  align-self: stretch;
+  position: relative;
+}
+.weeklySugarFreeDays {
+  height: 1.5rem;
+  font-size: var(--caption-size);
+  letter-spacing: 1px;
+  line-height: 266%;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.forAQuarter {
+  font-size: var(--button-size);
+  letter-spacing: 0.15px;
+  line-height: 143%;
+}
+.headingDescription {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-11xs);
+  font-size: var(--subtitle1-size);
+  color: var(--text-primary);
+  font-family: var(--button);
+}
+.foodie,
+.sugarFree,
+.weeklyChallenge {
+  position: relative;
+  font-weight: 600;
+}
+.sugarFreeParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-6xl) 0 0;
+  gap: 0 0.5rem;
+}
+.bible,
+.running {
+  position: relative;
+  font-weight: 600;
+}
+.instance1,
+.textContainer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.textContainer {
+  width: 13.938rem;
+  flex-direction: row;
+  padding: 0 var(--padding-xl) 0 0;
+  box-sizing: border-box;
+  gap: 0 0.5rem;
+}
+.instance1 {
+  align-self: stretch;
+  flex-direction: column;
+  padding: 0 0 var(--padding-11xs);
+}
+.icons2 {
+  height: 1.5rem;
+  width: 1.5rem;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 1.5rem;
+}
+.extended {
+  position: relative;
+  font-size: var(--button-size);
+  letter-spacing: 0.4px;
+  line-height: 1.5rem;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-family: var(--caption);
+  color: var(--grey-white-ffffff);
+  text-align: left;
+}
+.masterextendedsmall {
+  border-radius: var(--br-5xl);
+  background-color: var(--color-turquoise);
+  box-shadow: var(--shadow-6);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-8xs) var(--padding-5xs);
+  gap: 0 0.5rem;
+}
+.column,
+.fab {
+  display: flex;
+  align-items: center;
+}
+.fab {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--gradient-grey);
+  flex-direction: row;
+  justify-content: center;
+}
+.column {
+  align-self: stretch;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0 var(--padding-base);
+  gap: 0.313rem 0;
+}
+.card,
+.iconBackground1 {
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.card {
+  width: 16.25rem;
+  border-radius: var(--br-base);
+  background-color: var(--grey-7-f2f2f2);
+  box-shadow: var(--shadow-1-card);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-5xs);
+  box-sizing: border-box;
+  gap: 0.75rem 0;
+  cursor: pointer;
+}
+.iconBackground1 {
+  align-self: stretch;
+  height: 10.5rem;
+  position: relative;
+  border-radius: var(--br-base) var(--br-base) 0 0;
+  max-width: 100%;
+  object-fit: cover;
+}
+.followers1,
+.plansShared1 {
+  position: relative;
+  font-weight: 600;
+}
+.followers1 {
+  align-self: stretch;
+  width: 4.063rem;
+  text-align: right;
+  display: inline-block;
+}
+.plansSharedParent {
+  align-self: stretch;
+  height: 0.938rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 0 var(--padding-base);
+  box-sizing: border-box;
+}
+.cardItem {
+  width: 3.625rem;
+  height: 0.625rem;
+  display: none;
+}
+.ashleyBradley1 {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.15px;
+  line-height: 1.375rem;
+  font-weight: 400;
+  font-family: inherit;
+}
+.weeklySugarFreeDays1 {
+  align-self: stretch;
+  height: 1.5rem;
+  position: relative;
+  font-size: var(--caption-size);
+  letter-spacing: 1px;
+  line-height: 266%;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.forAQuarter1 {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--button-size);
+  letter-spacing: 0.15px;
+  line-height: 143%;
+}
+.headingDescription1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-11xs);
+}
+.foodie1,
+.sugarFree1,
+.weeklyChallenge1 {
+  position: relative;
+  font-weight: 600;
+}
+.weeklyChallenge1 {
+  flex: 1;
+}
+.foodie1 {
+  align-self: stretch;
+  width: 2.438rem;
+  display: inline-block;
+}
+.sugarFreeGroup {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-6xl) 0 0;
+  gap: 0 0.5rem;
+}
+.bible1,
+.running1 {
+  position: relative;
+  font-weight: 600;
+}
+.bible1 {
+  width: 1.688rem;
+  display: inline-block;
+}
+.eXTENDED,
+.sugarfree {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.sugarfree {
+  width: 13.938rem;
+  flex-direction: row;
+  padding: 0 var(--padding-xl) 0 0;
+  gap: 0 0.5rem;
+}
+.eXTENDED {
+  align-self: stretch;
+  height: 2rem;
+  flex-direction: column;
+  padding: 0 0 var(--padding-11xs);
+  font-size: var(--font-size-2xs);
+  color: var(--text-secondary);
+  font-family: var(--font-open-sans);
+}
+.icons3 {
+  height: 1.5rem;
+  width: 1.5rem;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 1.5rem;
+}
+.extended1 {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.4px;
+  line-height: 1.5rem;
+  text-transform: uppercase;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+}
+.fab1,
+.masterextendedsmall1 {
+  display: flex;
+  flex-direction: row;
+}
+.masterextendedsmall1 {
+  height: 2.125rem;
+  flex: 1;
+  border-radius: var(--br-5xl);
+  background-color: var(--color-turquoise);
+  box-shadow: var(--shadow-6);
+  overflow: hidden;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-8xs) var(--padding-5xs);
+  box-sizing: border-box;
+  gap: 0 0.5rem;
+}
+.fab1 {
+  width: 6.563rem;
+  align-items: center;
+  justify-content: center;
+  font-size: var(--button-size);
+  color: var(--grey-white-ffffff);
+  font-family: var(--caption);
+}
+.headingDescriptionParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 var(--padding-base);
+  gap: 0.313rem 0;
+  font-size: var(--subtitle1-size);
+  color: var(--text-primary);
+  font-family: var(--button);
+}
+.card1,
+.iconBackground2 {
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.card1 {
+  width: 16.25rem;
+  border-radius: var(--br-base);
+  background-color: var(--grey-7-f2f2f2);
+  box-shadow: var(--shadow-1-card);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-5xs);
+  box-sizing: border-box;
+  gap: 0.688rem 0;
+  cursor: pointer;
+}
+.iconBackground2 {
+  align-self: stretch;
+  height: 10.5rem;
+  position: relative;
+  border-radius: var(--br-base) var(--br-base) 0 0;
+  max-width: 100%;
+  object-fit: cover;
+}
+.followers2,
+.plansShared2 {
+  position: relative;
+  font-weight: 600;
+}
+.followers2 {
+  align-self: stretch;
+  width: 4.063rem;
+  text-align: right;
+  display: inline-block;
+}
+.plansSharedGroup {
+  align-self: stretch;
+  height: 0.938rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 0 var(--padding-base);
+  box-sizing: border-box;
+}
+.cardInner {
+  width: 3.625rem;
+  height: 0.625rem;
+  display: none;
+}
+.ashleyBradley2 {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.15px;
+  line-height: 1.375rem;
+  font-weight: 400;
+  font-family: inherit;
+}
+.weeklySugarFreeDays2 {
+  align-self: stretch;
+  height: 1.5rem;
+  position: relative;
+  font-size: var(--caption-size);
+  letter-spacing: 1px;
+  line-height: 266%;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.forAQuarter2 {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--button-size);
+  letter-spacing: 0.15px;
+  line-height: 143%;
+}
+.headingDescription2 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-11xs);
+}
+.foodie2,
+.sugarFree2,
+.weeklyChallenge2 {
+  position: relative;
+  font-weight: 600;
+}
+.weeklyChallenge2 {
+  flex: 1;
+}
+.foodie2 {
+  align-self: stretch;
+  width: 2.438rem;
+  display: inline-block;
+}
+.sugarFreeContainer {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-6xl) 0 0;
+  gap: 0 0.5rem;
+}
+.bible2,
+.running3 {
+  position: relative;
+  font-weight: 600;
+}
+.bible2 {
+  width: 1.688rem;
+  display: inline-block;
+}
+.frameParent,
+.running2 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.running2 {
+  width: 13.938rem;
+  flex-direction: row;
+  padding: 0 var(--padding-xl) 0 0;
+  gap: 0 0.5rem;
+}
+.frameParent {
+  align-self: stretch;
+  height: 2rem;
+  flex-direction: column;
+  padding: 0 0 var(--padding-11xs);
+  font-size: var(--font-size-2xs);
+  color: var(--text-secondary);
+  font-family: var(--font-open-sans);
+}
+.icons4 {
+  height: 1.5rem;
+  width: 1.5rem;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 1.5rem;
+}
+.extended2 {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.4px;
+  line-height: 1.5rem;
+  text-transform: uppercase;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+}
+.fab2,
+.masterextendedsmall2 {
+  display: flex;
+  flex-direction: row;
+}
+.masterextendedsmall2 {
+  height: 2.125rem;
+  flex: 1;
+  border-radius: var(--br-5xl);
+  background-color: var(--color-turquoise);
+  box-shadow: var(--shadow-6);
+  overflow: hidden;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-8xs) var(--padding-5xs);
+  box-sizing: border-box;
+  gap: 0 0.5rem;
+}
+.fab2 {
+  width: 6.563rem;
+  align-items: center;
+  justify-content: center;
+  font-size: var(--button-size);
+  color: var(--grey-white-ffffff);
+  font-family: var(--caption);
+}
+.headingDescriptionGroup {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 var(--padding-base);
+  gap: 0.313rem 0;
+  font-size: var(--subtitle1-size);
+  color: var(--text-primary);
+  font-family: var(--button);
+}
+.card2,
+.iconBackground3 {
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.card2 {
+  width: 16.25rem;
+  border-radius: var(--br-base);
+  background-color: var(--grey-7-f2f2f2);
+  box-shadow: var(--shadow-1-card);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-5xs);
+  box-sizing: border-box;
+  gap: 0.688rem 0;
+  cursor: pointer;
+}
+.iconBackground3 {
+  align-self: stretch;
+  height: 10.5rem;
+  position: relative;
+  border-radius: var(--br-base) var(--br-base) 0 0;
+  max-width: 100%;
+  object-fit: cover;
+}
+.followers3,
+.plansShared3 {
+  position: relative;
+  font-weight: 600;
+}
+.followers3 {
+  align-self: stretch;
+  width: 4.063rem;
+  text-align: right;
+  display: inline-block;
+}
+.plansSharedContainer {
+  align-self: stretch;
+  height: 0.938rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 0 var(--padding-base);
+  box-sizing: border-box;
+}
+.frameDiv {
+  width: 3.625rem;
+  height: 0.625rem;
+  display: none;
+}
+.ashleyBradley3 {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.15px;
+  line-height: 1.375rem;
+  font-weight: 400;
+  font-family: inherit;
+}
+.weeklySugarFreeDays3 {
+  align-self: stretch;
+  height: 1.5rem;
+  position: relative;
+  font-size: var(--caption-size);
+  letter-spacing: 1px;
+  line-height: 266%;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.forAQuarter3 {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--button-size);
+  letter-spacing: 0.15px;
+  line-height: 143%;
+}
+.headingDescription3 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-11xs);
+}
+.foodie3,
+.sugarFree3,
+.weeklyChallenge3 {
+  position: relative;
+  font-weight: 600;
+}
+.weeklyChallenge3 {
+  flex: 1;
+}
+.foodie3 {
+  align-self: stretch;
+  width: 2.438rem;
+  display: inline-block;
+}
+.sugarfreeChallengeInnerFram {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-6xl) 0 0;
+  gap: 0 0.5rem;
+}
+.bible3,
+.running4 {
+  position: relative;
+  font-weight: 600;
+}
+.bible3 {
+  width: 1.688rem;
+  display: inline-block;
+}
+.bibleFrame,
+.runningTrackInnerFrame {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.runningTrackInnerFrame {
+  width: 13.938rem;
+  flex-direction: row;
+  padding: 0 var(--padding-xl) 0 0;
+  gap: 0 0.5rem;
+}
+.bibleFrame {
+  align-self: stretch;
+  height: 2rem;
+  flex-direction: column;
+  padding: 0 0 var(--padding-11xs);
+  font-size: var(--font-size-2xs);
+  color: var(--text-secondary);
+  font-family: var(--font-open-sans);
+}
+.icons5 {
+  height: 1.5rem;
+  width: 1.5rem;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 1.5rem;
+}
+.extended3 {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.4px;
+  line-height: 1.5rem;
+  text-transform: uppercase;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+}
+.fab3,
+.masterextendedsmall3 {
+  display: flex;
+  flex-direction: row;
+}
+.masterextendedsmall3 {
+  height: 2.125rem;
+  flex: 1;
+  border-radius: var(--br-5xl);
+  background-color: var(--color-turquoise);
+  box-shadow: var(--shadow-6);
+  overflow: hidden;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-8xs) var(--padding-5xs);
+  box-sizing: border-box;
+  gap: 0 0.5rem;
+}
+.fab3 {
+  width: 6.563rem;
+  align-items: center;
+  justify-content: center;
+  font-size: var(--button-size);
+  color: var(--grey-white-ffffff);
+  font-family: var(--caption);
+}
+.headingDescriptionContainer {
+  align-self: stretch;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 var(--padding-base);
+  gap: 0.313rem 0;
+  font-size: var(--subtitle1-size);
+  color: var(--text-primary);
+  font-family: var(--button);
+}
+.card3,
+.headingDescriptionContainer,
+.instance,
+.rectangle {
+  display: flex;
+  justify-content: flex-start;
+}
+.card3 {
+  width: 16.25rem;
+  border-radius: var(--br-base);
+  background-color: var(--grey-7-f2f2f2);
+  box-shadow: var(--shadow-1-card);
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 0 var(--padding-5xs);
+  box-sizing: border-box;
+  gap: 0.688rem 0;
+  cursor: pointer;
+}
+.instance,
+.rectangle {
+  align-items: flex-start;
+}
+.instance {
+  width: 23.438rem;
+  overflow-x: auto;
+  flex-direction: row;
+  padding: 0 0 var(--padding-12xs) var(--padding-base);
+  box-sizing: border-box;
+  gap: 0 1rem;
+  font-size: var(--font-size-2xs);
+  color: var(--text-secondary);
+  font-family: var(--font-open-sans);
+}
+.rectangle {
+  flex-direction: column;
+  gap: 0.75rem 0;
+  text-align: left;
+  font-size: var(--h6-size);
+  color: var(--text-primary);
+  font-family: var(--button);
+}
+.forAQuarter4 {
+  top: 3.125rem;
+  letter-spacing: 0.15px;
+  line-height: 143%;
+}
+.ashleyBradley4,
+.forAQuarter4,
+.weeklySugarFreeDays4 {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  display: none;
+}
+.ashleyBradley4 {
+  top: 0;
+  font-size: var(--subtitle1-size);
+  letter-spacing: 0.15px;
+  line-height: 1.375rem;
+}
+.weeklySugarFreeDays4 {
+  top: 1.375rem;
+  font-size: var(--caption-size);
+  letter-spacing: 1px;
+  line-height: 266%;
+  text-transform: uppercase;
+  align-items: center;
+  height: 1.5rem;
+}
+.headingDescription4 {
+  position: absolute;
+  width: calc(100% - 32px);
+  top: 12.813rem;
+  right: 1rem;
+  left: 1rem;
+  height: 6.875rem;
+  display: none;
+  font-size: var(--button-size);
+  color: var(--text-primary);
+  font-family: var(--button);
+}
+.followers4,
+.plansShared4 {
+  top: 11.25rem;
+  font-weight: 600;
+}
+.plansShared4 {
+  position: absolute;
+  left: 1rem;
+  display: none;
+}
+.followers4 {
+  right: 1rem;
+  text-align: right;
+}
+.cardChild1,
+.followers4,
+.iconBackground4 {
+  position: absolute;
+  display: none;
+}
+.iconBackground4 {
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  border-radius: var(--br-base) var(--br-base) 0 0;
+  max-width: 100%;
+  overflow: hidden;
+  height: 10.5rem;
+  object-fit: cover;
+}
+.cardChild1 {
+  top: 9.25rem;
+  left: 11.625rem;
+  width: 3.625rem;
+  height: 0.625rem;
+}
+.extended4,
+.icons6 {
+  height: 1.5rem;
+  position: relative;
+  display: none;
+}
+.icons6 {
+  width: 1.5rem;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.extended4 {
+  letter-spacing: 0.4px;
+  line-height: 1.5rem;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.fab4,
+.masterextendedsmall4 {
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.masterextendedsmall4 {
+  border-radius: var(--br-5xl);
+  background-color: var(--color-turquoise);
+  box-shadow: var(--shadow-6);
+  overflow: hidden;
+  padding: var(--padding-8xs) var(--padding-5xs);
+  gap: 0 0.5rem;
+}
+.fab4 {
+  position: absolute;
+  top: 22.375rem;
+  right: 4.875rem;
+  font-size: var(--button-size);
+  color: var(--grey-white-ffffff);
+  font-family: var(--caption);
+}
+.foodie4,
+.sugarFree4,
+.weeklyChallenge4 {
+  align-self: stretch;
+  position: relative;
+  font-weight: 600;
+  display: none;
+}
+.sugarFreeParent1 {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0 0.5rem;
+}
+.bible4,
+.running5 {
+  align-self: stretch;
+  position: relative;
+  font-weight: 600;
+  display: none;
+}
+.frameGroup,
+.runningParent {
+  position: absolute;
+  display: none;
+}
+.runningParent {
+  width: calc(100% - 25px);
+  top: 0.938rem;
+  right: 1.563rem;
+  left: 0;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0 0.5rem;
+}
+.frameGroup {
+  top: 20.063rem;
+  left: 1rem;
+  width: 14.25rem;
+  height: 2rem;
+}
+.card4 {
+  height: 25rem;
+  width: 16.25rem;
+  position: relative;
+  border-radius: var(--br-base);
+  background-color: var(--grey-7-f2f2f2);
+  box-shadow: var(--shadow-1-card);
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+  cursor: pointer;
+}
+.forAQuarter5 {
+  top: 3.125rem;
+  letter-spacing: 0.15px;
+  line-height: 143%;
+}
+.ashleyBradley5,
+.forAQuarter5,
+.weeklySugarFreeDays5 {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  display: none;
+}
+.ashleyBradley5 {
+  top: 0;
+  font-size: var(--subtitle1-size);
+  letter-spacing: 0.15px;
+  line-height: 1.375rem;
+}
+.weeklySugarFreeDays5 {
+  top: 1.375rem;
+  font-size: var(--caption-size);
+  letter-spacing: 1px;
+  line-height: 266%;
+  text-transform: uppercase;
+  align-items: center;
+  height: 1.5rem;
+}
+.headingDescription5 {
+  position: absolute;
+  width: calc(100% - 32px);
+  top: 12.813rem;
+  right: 1rem;
+  left: 1rem;
+  height: 6.875rem;
+  display: none;
+  font-size: var(--button-size);
+  color: var(--text-primary);
+  font-family: var(--button);
+}
+.followers5,
+.plansShared5 {
+  top: 11.25rem;
+  font-weight: 600;
+}
+.plansShared5 {
+  position: absolute;
+  left: 1rem;
+  display: none;
+}
+.followers5 {
+  right: 1rem;
+  text-align: right;
+}
+.cardChild2,
+.followers5,
+.iconBackground5 {
+  position: absolute;
+  display: none;
+}
+.iconBackground5 {
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  border-radius: var(--br-base) var(--br-base) 0 0;
+  max-width: 100%;
+  overflow: hidden;
+  height: 10.5rem;
+  object-fit: cover;
+}
+.cardChild2 {
+  top: 9.25rem;
+  left: 11.625rem;
+  width: 3.625rem;
+  height: 0.625rem;
+}
+.extended5,
+.icons7 {
+  height: 1.5rem;
+  position: relative;
+  display: none;
+}
+.icons7 {
+  width: 1.5rem;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.extended5 {
+  letter-spacing: 0.4px;
+  line-height: 1.5rem;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.fab5,
+.masterextendedsmall5 {
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.masterextendedsmall5 {
+  border-radius: var(--br-5xl);
+  background-color: var(--color-turquoise);
+  box-shadow: var(--shadow-6);
+  overflow: hidden;
+  padding: var(--padding-8xs) var(--padding-5xs);
+  gap: 0 0.5rem;
+}
+.fab5 {
+  position: absolute;
+  top: 22.375rem;
+  right: 4.875rem;
+  font-size: var(--button-size);
+  color: var(--grey-white-ffffff);
+  font-family: var(--caption);
+}
+.foodie5,
+.sugarFree5,
+.weeklyChallenge5 {
+  align-self: stretch;
+  position: relative;
+  font-weight: 600;
+  display: none;
+}
+.sugarFreeParent2 {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0 0.5rem;
+}
+.bible5,
+.running6 {
+  align-self: stretch;
+  position: relative;
+  font-weight: 600;
+  display: none;
+}
+.runningGroup {
+  position: absolute;
+  width: calc(100% - 25px);
+  top: 0.938rem;
+  right: 1.563rem;
+  left: 0;
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0 0.5rem;
+}
+.frameContainer {
+  position: absolute;
+  top: 20.063rem;
+  left: 1rem;
+  width: 14.25rem;
+  height: 2rem;
+  display: none;
+}
+.card5 {
+  height: 25rem;
+  width: 16.25rem;
+  position: relative;
+  border-radius: var(--br-base);
+  background-color: var(--grey-7-f2f2f2);
+  box-shadow: var(--shadow-1-card);
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+  cursor: pointer;
+}
+.forAQuarter6 {
+  top: 3.125rem;
+  letter-spacing: 0.15px;
+  line-height: 143%;
+}
+.ashleyBradley6,
+.forAQuarter6,
+.weeklySugarFreeDays6 {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  display: none;
+}
+.ashleyBradley6 {
+  top: 0;
+  font-size: var(--subtitle1-size);
+  letter-spacing: 0.15px;
+  line-height: 1.375rem;
+}
+.weeklySugarFreeDays6 {
+  top: 1.375rem;
+  font-size: var(--caption-size);
+  letter-spacing: 1px;
+  line-height: 266%;
+  text-transform: uppercase;
+  align-items: center;
+  height: 1.5rem;
+}
+.headingDescription6 {
+  position: absolute;
+  width: calc(100% - 32px);
+  top: 12.813rem;
+  right: 1rem;
+  left: 1rem;
+  height: 6.875rem;
+  display: none;
+  font-size: var(--button-size);
+  color: var(--text-primary);
+  font-family: var(--button);
+}
+.followers6,
+.plansShared6 {
+  top: 11.25rem;
+  font-weight: 600;
+}
+.plansShared6 {
+  position: absolute;
+  left: 1rem;
+  display: none;
+}
+.followers6 {
+  right: 1rem;
+  text-align: right;
+}
+.cardChild3,
+.followers6,
+.iconBackground6 {
+  position: absolute;
+  display: none;
+}
+.iconBackground6 {
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  border-radius: var(--br-base) var(--br-base) 0 0;
+  max-width: 100%;
+  overflow: hidden;
+  height: 10.5rem;
+  object-fit: cover;
+}
+.cardChild3 {
+  top: 9.25rem;
+  left: 11.625rem;
+  width: 3.625rem;
+  height: 0.625rem;
+}
+.extended6,
+.icons8 {
+  height: 1.5rem;
+  position: relative;
+  display: none;
+}
+.icons8 {
+  width: 1.5rem;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.extended6 {
+  letter-spacing: 0.4px;
+  line-height: 1.5rem;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.fab6,
+.masterextendedsmall6 {
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.masterextendedsmall6 {
+  border-radius: var(--br-5xl);
+  background-color: var(--color-turquoise);
+  box-shadow: var(--shadow-6);
+  overflow: hidden;
+  padding: var(--padding-8xs) var(--padding-5xs);
+  gap: 0 0.5rem;
+}
+.fab6 {
+  position: absolute;
+  top: 22.375rem;
+  right: 4.875rem;
+  font-size: var(--button-size);
+  color: var(--grey-white-ffffff);
+  font-family: var(--caption);
+}
+.foodie6,
+.sugarFree6,
+.weeklyChallenge6 {
+  align-self: stretch;
+  position: relative;
+  font-weight: 600;
+  display: none;
+}
+.sugarFreeParent3 {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0 0.5rem;
+}
+.bible6,
+.running7 {
+  align-self: stretch;
+  position: relative;
+  font-weight: 600;
+  display: none;
+}
+.runningContainer {
+  position: absolute;
+  width: calc(100% - 25px);
+  top: 0.938rem;
+  right: 1.563rem;
+  left: 0;
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0 0.5rem;
+}
+.frameParent1 {
+  position: absolute;
+  top: 20.063rem;
+  left: 1rem;
+  width: 14.25rem;
+  height: 2rem;
+  display: none;
+}
+.card6 {
+  height: 25rem;
+  width: 16.25rem;
+  position: relative;
+  border-radius: var(--br-base);
+  background-color: var(--grey-7-f2f2f2);
+  box-shadow: var(--shadow-1-card);
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+  cursor: pointer;
+}
+.forAQuarter7 {
+  top: 3.125rem;
+  letter-spacing: 0.15px;
+  line-height: 143%;
+}
+.ashleyBradley7,
+.forAQuarter7,
+.weeklySugarFreeDays7 {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  display: none;
+}
+.ashleyBradley7 {
+  top: 0;
+  font-size: var(--subtitle1-size);
+  letter-spacing: 0.15px;
+  line-height: 1.375rem;
+}
+.weeklySugarFreeDays7 {
+  top: 1.375rem;
+  font-size: var(--caption-size);
+  letter-spacing: 1px;
+  line-height: 266%;
+  text-transform: uppercase;
+  align-items: center;
+  height: 1.5rem;
+}
+.headingDescription7 {
+  position: absolute;
+  width: calc(100% - 32px);
+  top: 12.813rem;
+  right: 1rem;
+  left: 1rem;
+  height: 6.875rem;
+  display: none;
+  font-size: var(--button-size);
+  color: var(--text-primary);
+  font-family: var(--button);
+}
+.followers7,
+.plansShared7 {
+  top: 11.25rem;
+  font-weight: 600;
+}
+.plansShared7 {
+  position: absolute;
+  left: 1rem;
+  display: none;
+}
+.followers7 {
+  right: 1rem;
+  text-align: right;
+}
+.cardChild4,
+.followers7,
+.iconBackground7 {
+  position: absolute;
+  display: none;
+}
+.iconBackground7 {
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  border-radius: var(--br-base) var(--br-base) 0 0;
+  max-width: 100%;
+  overflow: hidden;
+  height: 10.5rem;
+  object-fit: cover;
+}
+.cardChild4 {
+  top: 9.25rem;
+  left: 11.625rem;
+  width: 3.625rem;
+  height: 0.625rem;
+}
+.extended7,
+.icons9 {
+  height: 1.5rem;
+  position: relative;
+  display: none;
+}
+.icons9 {
+  width: 1.5rem;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.extended7 {
+  letter-spacing: 0.4px;
+  line-height: 1.5rem;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.fab7,
+.masterextendedsmall7 {
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.masterextendedsmall7 {
+  border-radius: var(--br-5xl);
+  background-color: var(--color-turquoise);
+  box-shadow: var(--shadow-6);
+  overflow: hidden;
+  padding: var(--padding-8xs) var(--padding-5xs);
+  gap: 0 0.5rem;
+}
+.fab7 {
+  position: absolute;
+  top: 22.375rem;
+  right: 4.875rem;
+  font-size: var(--button-size);
+  color: var(--grey-white-ffffff);
+  font-family: var(--caption);
+}
+.foodie7,
+.sugarFree7,
+.weeklyChallenge7 {
+  align-self: stretch;
+  position: relative;
+  font-weight: 600;
+  display: none;
+}
+.sugarFreeParent4 {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0 0.5rem;
+}
+.bible7,
+.running8 {
+  align-self: stretch;
+  position: relative;
+  font-weight: 600;
+  display: none;
+}
+.runningParent1 {
+  position: absolute;
+  width: calc(100% - 25px);
+  top: 0.938rem;
+  right: 1.563rem;
+  left: 0;
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0 0.5rem;
+}
+.frameParent2 {
+  position: absolute;
+  top: 20.063rem;
+  left: 1rem;
+  width: 14.25rem;
+  height: 2rem;
+  display: none;
+}
+.card7,
+.cardParent {
+  flex-shrink: 0;
+  display: none;
+}
+.card7 {
+  height: 25rem;
+  width: 16.25rem;
+  position: relative;
+  border-radius: var(--br-base);
+  background-color: var(--grey-7-f2f2f2);
+  box-shadow: var(--shadow-1-card);
+  overflow: hidden;
+  cursor: pointer;
+}
+.cardParent {
+  align-self: stretch;
+  height: 25.813rem;
+  overflow-x: auto;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-base);
+  box-sizing: border-box;
+  gap: 0 1rem;
+  font-size: var(--font-size-2xs);
+  color: var(--text-secondary);
+  font-family: var(--font-open-sans);
+}
+.icons10 {
+  height: 1.5rem;
+  width: 1.5rem;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.fab8,
+.masterroundsmall {
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.masterroundsmall {
+  height: 2.5rem;
+  width: 2.5rem;
+  border-radius: var(--br-xl);
+  background-color: var(--color-turquoise);
+  box-shadow: var(--shadow-6);
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  padding: var(--padding-5xs);
+  box-sizing: border-box;
+}
+.fab8 {
+  display: none;
+}
+.h62 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.15px;
+  line-height: 160%;
+  font-weight: 700;
+  font-family: inherit;
+}
+.typography3,
+.typographyWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.typographyWrapper {
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-base);
+}
+.iconBackground8 {
+  align-self: stretch;
+  height: 10.5rem;
+  position: relative;
+  border-radius: var(--br-base) var(--br-base) 0 0;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.followers8,
+.plansShared8 {
+  position: relative;
+  font-weight: 600;
+}
+.followers8 {
+  text-align: right;
+}
+.plansSharedParent1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 0 var(--padding-base);
+}
+.cardChild5 {
+  width: 3.625rem;
+  height: 0.625rem;
+  display: none;
+}
+.ashleyBradley8 {
+  margin: 0;
+  align-self: stretch;
+  height: 1.375rem;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.15px;
+  line-height: 1.375rem;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+}
+.weeklySugarFreeDays8 {
+  align-self: stretch;
+  height: 1.5rem;
+  position: relative;
+  font-size: var(--caption-size);
+  letter-spacing: 1px;
+  line-height: 266%;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.forAQuarter8 {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  font-size: var(--button-size);
+  letter-spacing: 0.15px;
+  line-height: 143%;
+}
+.headingDescription8 {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0;
+  gap: var(--gap-11xs);
+}
+.sugarFree8,
+.weeklyChallenge8 {
+  position: relative;
+  font-weight: 600;
+}
+.sugarFree8 {
+  align-self: stretch;
+  width: 3.5rem;
+  display: inline-block;
+}
+.weeklyChallenge8 {
+  flex: 1;
+}
+.foodie8,
+.group,
+.weeklyChallenge8 {
+  align-self: stretch;
+}
+.foodie8 {
+  width: 2.438rem;
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+}
+.group {
+  height: 0.938rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-6xl) 0 0;
+  box-sizing: border-box;
+  gap: 0 0.5rem;
+}
+.bible8,
+.running9 {
+  align-self: stretch;
+  width: 2.813rem;
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+}
+.bible8 {
+  width: 1.688rem;
+}
+.text1,
+.text2 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.text2 {
+  width: 13.938rem;
+  height: 0.938rem;
+  flex-direction: row;
+  padding: 0 var(--padding-xl) 0 0;
+  gap: 0 0.5rem;
+}
+.text1 {
+  align-self: stretch;
+  height: 2rem;
+  flex-direction: column;
+  padding: 0;
+  font-size: var(--font-size-2xs);
+  color: var(--text-secondary);
+  font-family: var(--font-open-sans);
+}
+.extended8,
+.icons11 {
+  height: 1.5rem;
+  position: relative;
+}
+.icons11 {
+  width: 1.5rem;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.extended8 {
+  flex: 1;
+  letter-spacing: 0.4px;
+  line-height: 1.5rem;
+  text-transform: uppercase;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+}
+.masterextendedsmall8 {
+  height: 2.125rem;
+  flex: 1;
+  border-radius: var(--br-5xl);
+  background-color: var(--color-turquoise);
+  box-shadow: var(--shadow-6);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-8xs) var(--padding-5xs) 0;
+  box-sizing: border-box;
+  gap: 0 0.5rem;
+}
+.fab9,
+.headingDescriptionParent1 {
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+}
+.fab9 {
+  width: 6.563rem;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0;
+  font-size: var(--button-size);
+  color: var(--grey-white-ffffff);
+  font-family: var(--caption);
+}
+.headingDescriptionParent1 {
+  align-self: stretch;
+  height: 11.688rem;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0 var(--padding-base) 0;
+  gap: 0.313rem 0;
+  font-size: var(--subtitle1-size);
+  color: var(--text-primary);
+  font-family: var(--button);
+}
+.card8,
+.iconBackground9 {
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.card8 {
+  height: 25rem;
+  width: 16.25rem;
+  border-radius: var(--br-base);
+  background-color: var(--grey-7-f2f2f2);
+  box-shadow: var(--shadow-1-card);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0.688rem 0;
+  cursor: pointer;
+}
+.iconBackground9 {
+  align-self: stretch;
+  height: 10.5rem;
+  position: relative;
+  border-radius: var(--br-base) var(--br-base) 0 0;
+  max-width: 100%;
+  object-fit: cover;
+}
+.followers9,
+.plansShared9 {
+  position: relative;
+  font-weight: 600;
+}
+.followers9 {
+  text-align: right;
+}
+.plansSharedParent2 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 0 var(--padding-base);
+}
+.cardChild6 {
+  width: 3.625rem;
+  height: 0.625rem;
+  display: none;
+}
+.ashleyBradley9 {
+  margin: 0;
+  align-self: stretch;
+  height: 1.375rem;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.15px;
+  line-height: 1.375rem;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+}
+.weeklySugarFreeDays9 {
+  align-self: stretch;
+  height: 1.5rem;
+  position: relative;
+  font-size: var(--caption-size);
+  letter-spacing: 1px;
+  line-height: 266%;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.forAQuarter9 {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  font-size: var(--button-size);
+  letter-spacing: 0.15px;
+  line-height: 143%;
+}
+.headingDescription9 {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0;
+  gap: var(--gap-11xs);
+}
+.sugarFree9 {
+  width: 3.5rem;
+  display: inline-block;
+}
+.foodie9,
+.sugarFree9,
+.weeklyChallenge9 {
+  align-self: stretch;
+  position: relative;
+  font-weight: 600;
+}
+.weeklyChallenge9 {
+  flex: 1;
+}
+.foodie9 {
+  width: 2.438rem;
+  display: inline-block;
+}
+.sugarFreeParent5 {
+  align-self: stretch;
+  height: 0.938rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-6xl) 0 0;
+  box-sizing: border-box;
+  gap: 0 0.5rem;
+}
+.bible9,
+.running10 {
+  align-self: stretch;
+  width: 2.813rem;
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+}
+.bible9 {
+  width: 1.688rem;
+}
+.frameParent3,
+.runningParent2 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.runningParent2 {
+  width: 13.938rem;
+  height: 0.938rem;
+  flex-direction: row;
+  padding: 0 var(--padding-xl) 0 0;
+  gap: 0 0.5rem;
+}
+.frameParent3 {
+  align-self: stretch;
+  height: 2rem;
+  flex-direction: column;
+  padding: 0;
+  font-size: var(--font-size-2xs);
+  color: var(--text-secondary);
+  font-family: var(--font-open-sans);
+}
+.extended9,
+.icons12 {
+  height: 1.5rem;
+  position: relative;
+}
+.icons12 {
+  width: 1.5rem;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.extended9 {
+  flex: 1;
+  letter-spacing: 0.4px;
+  line-height: 1.5rem;
+  text-transform: uppercase;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+}
+.masterextendedsmall9 {
+  height: 2.125rem;
+  flex: 1;
+  border-radius: var(--br-5xl);
+  background-color: var(--color-turquoise);
+  box-shadow: var(--shadow-6);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-8xs) var(--padding-5xs) 0;
+  box-sizing: border-box;
+  gap: 0 0.5rem;
+}
+.fab10,
+.headingDescriptionParent2 {
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+}
+.fab10 {
+  width: 6.563rem;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0;
+  font-size: var(--button-size);
+  color: var(--grey-white-ffffff);
+  font-family: var(--caption);
+}
+.headingDescriptionParent2 {
+  align-self: stretch;
+  height: 11.688rem;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0 var(--padding-base) 0;
+  gap: 0.313rem 0;
+  font-size: var(--subtitle1-size);
+  color: var(--text-primary);
+  font-family: var(--button);
+}
+.card9,
+.iconBackground10 {
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.card9 {
+  height: 25rem;
+  width: 16.25rem;
+  border-radius: var(--br-base);
+  background-color: var(--grey-7-f2f2f2);
+  box-shadow: var(--shadow-1-card);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0.688rem 0;
+  cursor: pointer;
+}
+.iconBackground10 {
+  align-self: stretch;
+  height: 10.5rem;
+  position: relative;
+  border-radius: var(--br-base) var(--br-base) 0 0;
+  max-width: 100%;
+  object-fit: cover;
+}
+.followers10,
+.plansShared10 {
+  position: relative;
+  font-weight: 600;
+}
+.followers10 {
+  text-align: right;
+}
+.plansSharedParent3 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 0 var(--padding-base);
+}
+.cardChild7 {
+  width: 3.625rem;
+  height: 0.625rem;
+  display: none;
+}
+.ashleyBradley10 {
+  margin: 0;
+  align-self: stretch;
+  height: 1.375rem;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.15px;
+  line-height: 1.375rem;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+}
+.weeklySugarFreeDays10 {
+  align-self: stretch;
+  height: 1.5rem;
+  position: relative;
+  font-size: var(--caption-size);
+  letter-spacing: 1px;
+  line-height: 266%;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.forAQuarter10 {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  font-size: var(--button-size);
+  letter-spacing: 0.15px;
+  line-height: 143%;
+}
+.headingDescription10 {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0;
+  gap: var(--gap-11xs);
+}
+.sugarFree10 {
+  width: 3.5rem;
+  display: inline-block;
+}
+.foodie10,
+.sugarFree10,
+.weeklyChallenge10 {
+  align-self: stretch;
+  position: relative;
+  font-weight: 600;
+}
+.weeklyChallenge10 {
+  flex: 1;
+}
+.foodie10 {
+  width: 2.438rem;
+  display: inline-block;
+}
+.sugarFreeParent6 {
+  align-self: stretch;
+  height: 0.938rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-6xl) 0 0;
+  box-sizing: border-box;
+  gap: 0 0.5rem;
+}
+.bible10,
+.running11 {
+  align-self: stretch;
+  width: 2.813rem;
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+}
+.bible10 {
+  width: 1.688rem;
+}
+.frameParent4,
+.runningParent3 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.runningParent3 {
+  width: 13.938rem;
+  height: 0.938rem;
+  flex-direction: row;
+  padding: 0 var(--padding-xl) 0 0;
+  gap: 0 0.5rem;
+}
+.frameParent4 {
+  align-self: stretch;
+  height: 2rem;
+  flex-direction: column;
+  padding: 0;
+  font-size: var(--font-size-2xs);
+  color: var(--text-secondary);
+  font-family: var(--font-open-sans);
+}
+.extended10,
+.icons13 {
+  height: 1.5rem;
+  position: relative;
+}
+.icons13 {
+  width: 1.5rem;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.extended10 {
+  flex: 1;
+  letter-spacing: 0.4px;
+  line-height: 1.5rem;
+  text-transform: uppercase;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+}
+.masterextendedsmall10 {
+  height: 2.125rem;
+  flex: 1;
+  border-radius: var(--br-5xl);
+  background-color: var(--color-turquoise);
+  box-shadow: var(--shadow-6);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-8xs) var(--padding-5xs) 0;
+  box-sizing: border-box;
+  gap: 0 0.5rem;
+}
+.fab11,
+.headingDescriptionParent3 {
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+}
+.fab11 {
+  width: 6.563rem;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0;
+  font-size: var(--button-size);
+  color: var(--grey-white-ffffff);
+  font-family: var(--caption);
+}
+.headingDescriptionParent3 {
+  align-self: stretch;
+  height: 11.688rem;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0 var(--padding-base) 0;
+  gap: 0.313rem 0;
+  font-size: var(--subtitle1-size);
+  color: var(--text-primary);
+  font-family: var(--button);
+}
+.card10,
+.iconBackground11 {
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.card10 {
+  height: 25rem;
+  width: 16.25rem;
+  border-radius: var(--br-base);
+  background-color: var(--grey-7-f2f2f2);
+  box-shadow: var(--shadow-1-card);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0.688rem 0;
+  cursor: pointer;
+}
+.iconBackground11 {
+  align-self: stretch;
+  height: 10.5rem;
+  position: relative;
+  border-radius: var(--br-base) var(--br-base) 0 0;
+  max-width: 100%;
+  object-fit: cover;
+}
+.followers11,
+.plansShared11 {
+  position: relative;
+  font-weight: 600;
+}
+.followers11 {
+  text-align: right;
+}
+.plansSharedParent4 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 0 var(--padding-base);
+}
+.cardChild8 {
+  width: 3.625rem;
+  height: 0.625rem;
+  display: none;
+}
+.ashleyBradley11 {
+  margin: 0;
+  align-self: stretch;
+  height: 1.375rem;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.15px;
+  line-height: 1.375rem;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+}
+.weeklySugarFreeDays11 {
+  align-self: stretch;
+  height: 1.5rem;
+  position: relative;
+  font-size: var(--caption-size);
+  letter-spacing: 1px;
+  line-height: 266%;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.forAQuarter11 {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  font-size: var(--button-size);
+  letter-spacing: 0.15px;
+  line-height: 143%;
+}
+.headingDescription11 {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0;
+  gap: var(--gap-11xs);
+}
+.sugarFree11 {
+  width: 3.5rem;
+  display: inline-block;
+}
+.foodie11,
+.sugarFree11,
+.weeklyChallenge11 {
+  align-self: stretch;
+  position: relative;
+  font-weight: 600;
+}
+.weeklyChallenge11 {
+  flex: 1;
+}
+.foodie11 {
+  width: 2.438rem;
+  display: inline-block;
+}
+.sugarFreeParent7 {
+  align-self: stretch;
+  height: 0.938rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-6xl) 0 0;
+  box-sizing: border-box;
+  gap: 0 0.5rem;
+}
+.bible11,
+.running12 {
+  align-self: stretch;
+  width: 2.813rem;
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+}
+.bible11 {
+  width: 1.688rem;
+}
+.frameParent5,
+.runningParent4 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.runningParent4 {
+  width: 13.938rem;
+  height: 0.938rem;
+  flex-direction: row;
+  padding: 0 var(--padding-xl) 0 0;
+  gap: 0 0.5rem;
+}
+.frameParent5 {
+  align-self: stretch;
+  height: 2rem;
+  flex-direction: column;
+  padding: 0;
+  font-size: var(--font-size-2xs);
+  color: var(--text-secondary);
+  font-family: var(--font-open-sans);
+}
+.extended11,
+.icons14 {
+  height: 1.5rem;
+  position: relative;
+}
+.icons14 {
+  width: 1.5rem;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.extended11 {
+  flex: 1;
+  letter-spacing: 0.4px;
+  line-height: 1.5rem;
+  text-transform: uppercase;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+}
+.fab12,
+.masterextendedsmall11 {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+}
+.masterextendedsmall11 {
+  height: 2.125rem;
+  flex: 1;
+  border-radius: var(--br-5xl);
+  background-color: var(--color-turquoise);
+  box-shadow: var(--shadow-6);
+  overflow: hidden;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-8xs) var(--padding-5xs) 0;
+  gap: 0 0.5rem;
+}
+.fab12 {
+  width: 6.563rem;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  font-size: var(--button-size);
+  color: var(--grey-white-ffffff);
+  font-family: var(--caption);
+}
+.card11,
+.headingDescriptionParent4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.headingDescriptionParent4 {
+  align-self: stretch;
+  height: 11.688rem;
+  padding: 0 var(--padding-base) 0;
+  box-sizing: border-box;
+  gap: 0.313rem 0;
+  font-size: var(--subtitle1-size);
+  color: var(--text-primary);
+  font-family: var(--button);
+}
+.card11 {
+  height: 25rem;
+  width: 16.25rem;
+  border-radius: var(--br-base);
+  background-color: var(--grey-7-f2f2f2);
+  box-shadow: var(--shadow-1-card);
+  overflow: hidden;
+  flex-shrink: 0;
+  gap: 0.688rem 0;
+  cursor: pointer;
+}
+.cardGroup,
+.explore2DiscoverUsers,
+.rectangle1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: left;
+}
+.cardGroup {
+  width: 23.438rem;
+  height: 12.25rem;
+  overflow-x: auto;
+  flex-shrink: 0;
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-base);
+  box-sizing: border-box;
+  gap: 0 1rem;
+  font-size: var(--font-size-2xs);
+  color: var(--text-secondary);
+  font-family: var(--font-open-sans);
+}
+.explore2DiscoverUsers,
+.rectangle1 {
+  flex-direction: column;
+  font-size: var(--h6-size);
+  color: var(--text-primary);
+  font-family: var(--button);
+}
+.rectangle1 {
+  height: 27.813rem;
+  flex-shrink: 0;
+  padding: 0;
+  box-sizing: border-box;
+  gap: 0.75rem 0;
+}
+.explore2DiscoverUsers {
+  width: 100%;
+  height: 50.75rem;
+  position: relative;
+  background-color: var(--grey-white-ffffff);
+  overflow-y: auto;
+  gap: 1.438rem 0;
+}

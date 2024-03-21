@@ -1,0 +1,870 @@
+.icons {
+  height: 1.5rem;
+  width: 1.5rem;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.fab,
+.masterroundsmall {
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.masterroundsmall {
+  height: 2.5rem;
+  width: 2.5rem;
+  border-radius: var(--br-xl);
+  background-color: var(--color-turquoise);
+  box-shadow: var(--shadow-6);
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  padding: var(--padding-5xs);
+  box-sizing: border-box;
+}
+.fab {
+  display: none;
+}
+.icons1,
+.tabOne {
+  position: relative;
+}
+.icons1 {
+  width: 1.5rem;
+  height: 1.5rem;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.tabOne {
+  align-self: stretch;
+  flex: 1;
+  letter-spacing: 0.4px;
+  line-height: 166%;
+}
+.content {
+  position: absolute;
+  top: calc(50% - 22px);
+  left: calc(50% - 20.5px);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.bottomNavigation1 {
+  position: absolute;
+  height: 100%;
+  width: 33.33%;
+  top: 0;
+  right: 66.67%;
+  bottom: 0;
+  left: 0;
+  background-color: var(--grey-white-ffffff);
+}
+.icons2 {
+  width: 1.5rem;
+  height: 1.5rem;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.tabOne1 {
+  align-self: stretch;
+  height: 1.25rem;
+  position: relative;
+  letter-spacing: 0.15px;
+  line-height: 143%;
+  display: inline-block;
+}
+.content1 {
+  position: absolute;
+  top: calc(50% - 22px);
+  left: calc(50% - 27.5px);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.bottomNavigation2 {
+  position: absolute;
+  height: 100%;
+  width: 33.33%;
+  top: 0;
+  right: 33.33%;
+  bottom: 0;
+  left: 33.33%;
+  background-color: var(--grey-white-ffffff);
+  font-size: var(--button-size);
+  color: var(--primary-main-06adb7);
+}
+.icons3 {
+  width: 1.5rem;
+  height: 1.5rem;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.tabOne2 {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.4px;
+  line-height: 166%;
+}
+.content2 {
+  position: absolute;
+  top: calc(50% - 22px);
+  left: calc(50% - 26.5px);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.bottomNavigation3 {
+  position: absolute;
+  height: 100%;
+  width: 33.33%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 66.67%;
+  background-color: var(--grey-white-ffffff);
+  font-family: var(--caption);
+}
+.bottomNavigation {
+  align-self: stretch;
+  height: 3.5rem;
+  position: relative;
+  box-shadow: var(--menubar-shadow);
+  flex-shrink: 0;
+  display: none;
+}
+.statusBarBg {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.fRA {
+  flex: 1;
+  position: relative;
+}
+.carrier,
+.receptionIcon,
+.wifiIcon {
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.carrier {
+  width: 4.375rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 var(--padding-lg) 0 0;
+  box-sizing: border-box;
+  opacity: 0.9;
+  mix-blend-mode: normal;
+}
+.receptionIcon,
+.wifiIcon {
+  height: 0.75rem;
+  position: relative;
+}
+.wifiIcon {
+  width: 1rem;
+  object-fit: cover;
+}
+.receptionIcon {
+  width: 0.75rem;
+}
+.fRAME2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-8xs) 0 0;
+}
+.batteryIcon {
+  height: 0.813rem;
+  width: 0.5rem;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.batteryIcon,
+.fRA1 {
+  position: relative;
+}
+.fRAME1,
+.statusBar,
+.time {
+  display: flex;
+  flex-direction: row;
+}
+.time {
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+  opacity: 0.9;
+  mix-blend-mode: normal;
+  z-index: 1;
+}
+.fRAME1,
+.statusBar {
+  align-items: flex-start;
+}
+.fRAME1 {
+  justify-content: flex-start;
+  padding: 0 var(--padding-12xs) 0 0;
+  gap: 0 0.563rem;
+}
+.statusBar {
+  width: 23.438rem;
+  background-color: var(--primary-dark);
+  justify-content: space-between;
+  padding: var(--padding-8xs) var(--padding-5xs) var(--padding-9xs);
+  box-sizing: border-box;
+  position: relative;
+}
+.rect {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  background-color: var(--primary-main-06adb7);
+  box-shadow: var(--shadow-4-app-bar);
+}
+.appBarItems {
+  height: 100%;
+  width: calc(100% - 8px);
+  margin: 0 !important;
+  position: absolute;
+  top: 0;
+  right: 0.5rem;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.icons4 {
+  height: 1.5rem;
+  width: 1.5rem;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.masterlarge {
+  height: 3rem;
+  width: 3rem;
+  border-radius: var(--br-29xl);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-xs);
+  box-sizing: border-box;
+}
+.appBarnavigationIcon,
+.iconButtonlargeprimarydefa {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.appBarnavigationIcon {
+  cursor: pointer;
+  z-index: 1;
+}
+.avatarFrame {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-base) 0 0;
+}
+.stepNrStep {
+  position: relative;
+  letter-spacing: 0.1px;
+  line-height: 140%;
+}
+.appBartitlenormal,
+.typography {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.appBartitlenormal {
+  overflow: hidden;
+  z-index: 1;
+}
+.icons5 {
+  height: 1.5rem;
+  width: 1.5rem;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.masterlarge2 {
+  height: 3rem;
+  width: 3rem;
+  border-radius: var(--br-29xl);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-xs);
+  box-sizing: border-box;
+}
+.iconButtonlargeprimarydefa1 {
+  justify-content: center;
+}
+.appbarmenu,
+.iconButtonlargeprimarydefa1,
+.masterlarge1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.masterlarge1 {
+  justify-content: center;
+  z-index: 1;
+}
+.appbarmenu {
+  justify-content: flex-start;
+  padding: var(--padding-9xs) var(--padding-xs);
+  position: relative;
+  font-size: var(--subtitle3-size);
+  font-family: var(--button);
+}
+.imageIcon {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.cardsItemVariant4,
+.selectFrame {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  box-sizing: border-box;
+}
+.selectFrame {
+  width: 100%;
+  border: 0;
+  outline: 0;
+  background-color: var(--color-gray-100);
+  height: 2.5rem;
+  flex: 1;
+  align-items: center;
+  padding: var(--padding-9xs);
+  font-family: var(--button);
+  font-weight: 700;
+  font-size: var(--h6-size);
+  color: var(--grey-white-ffffff);
+  min-width: 12.875rem;
+  z-index: 1;
+}
+.cardsItemVariant4 {
+  align-self: stretch;
+  height: 15.125rem;
+  align-items: flex-end;
+  padding: var(--padding-base);
+  position: relative;
+}
+.beTheExcel,
+.notAbleTo {
+  margin: 0;
+}
+.notAbleToContainer {
+  width: 21.438rem;
+  position: relative;
+  letter-spacing: 0.15px;
+  line-height: 143%;
+  display: inline-block;
+}
+.underlineIcon {
+  align-self: stretch;
+  height: 0.063rem;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.label1 {
+  position: relative;
+  letter-spacing: 0.15px;
+  line-height: 0.75rem;
+}
+.label {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.fillednavigationarrowDropDIcon {
+  height: 1.5rem;
+  width: 1.5rem;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.selectArrow {
+  width: 1.5rem;
+  height: 1.5rem;
+  display: none;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.kg {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: 0.15px;
+  line-height: 150%;
+  display: flex;
+  align-items: center;
+}
+.adornmentStart {
+  height: 1.5rem;
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 var(--padding-12xs) 0 var(--padding-11xs);
+  box-sizing: border-box;
+}
+.selected {
+  position: relative;
+  letter-spacing: 0.15px;
+  line-height: 143%;
+}
+.content3,
+.inputText {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: var(--button-size);
+  color: var(--text-primary);
+}
+.content3 {
+  overflow: hidden;
+  gap: 0 0.625rem;
+  font-size: var(--subtitle1-size);
+  color: var(--text-primary1);
+}
+.input {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-6xs);
+  gap: 0.375rem 0;
+}
+.helperText1 {
+  position: relative;
+  letter-spacing: 0.4px;
+  line-height: 1.25rem;
+}
+.helperText {
+  width: 13.75rem;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.masterlinedense,
+.select {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.masterlinedense {
+  overflow: hidden;
+  gap: 0 0.188rem;
+}
+.select {
+  min-width: 10.938rem;
+}
+.avatarIcon {
+  height: 2.688rem;
+  width: 2.625rem;
+  position: relative;
+  border-radius: var(--br-xl);
+}
+.selectedText {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 0 var(--padding-13xl);
+  text-align: left;
+  font-size: var(--caption-size);
+}
+.dividerIcon {
+  width: 19.438rem;
+  height: 0.063rem;
+  position: relative;
+}
+.labelFrame,
+.planheader {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.labelFrame {
+  align-items: center;
+  padding: var(--padding-base) 0 var(--padding-5xs);
+  gap: 0.5rem 0;
+}
+.planheader {
+  align-items: flex-start;
+  padding: 0 var(--padding-xl) 0 0;
+  text-align: center;
+  font-size: var(--button-size);
+  color: var(--text-secondary);
+  font-family: var(--button);
+}
+.icons6 {
+  height: 1.5rem;
+  width: 1.5rem;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.vectorIcon {
+  position: absolute;
+  height: 83.33%;
+  width: calc(100% - 16px);
+  top: 8.33%;
+  right: 0.5rem;
+  bottom: 8.33%;
+  left: 0.5rem;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.kroknedefinovnChild {
+  position: absolute;
+  top: 3.063rem;
+  left: 2.5rem;
+  width: 1.275rem;
+  height: 2rem;
+  z-index: 1;
+}
+.step1 {
+  position: relative;
+  font-size: var(--subtitle1-size);
+  letter-spacing: 0.15px;
+  line-height: 150%;
+  font-family: var(--button);
+  color: var(--grey-white-ffffff);
+  text-align: center;
+}
+.step1Wrapper {
+  position: absolute;
+  top: 1.563rem;
+  left: calc(50% - 25px);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+.kroknedefinovn {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--gradient-grey);
+  height: 6rem;
+  width: 6rem;
+  position: relative;
+}
+.nameYourStep,
+.tapToSpecify {
+  position: relative;
+  letter-spacing: 0.15px;
+}
+.nameYourStep {
+  align-self: stretch;
+  width: 12.625rem;
+  line-height: 1.375rem;
+  display: none;
+}
+.tapToSpecify {
+  width: 14.25rem;
+  font-size: var(--button-size);
+  line-height: 143%;
+  color: var(--text-secondary);
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.nameYourStepParent {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-xl) 0;
+  box-sizing: border-box;
+  gap: 0 0.25rem;
+  min-width: 9.563rem;
+}
+.icons7 {
+  height: 1.5rem;
+  width: 1.5rem;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.step {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-9xs);
+  gap: 0 0.25rem;
+  cursor: pointer;
+  text-align: left;
+  font-size: var(--subtitle1-size);
+  color: var(--text-primary);
+  font-family: var(--button);
+}
+.dividerIcon1,
+.icons8 {
+  height: 0.063rem;
+  width: 2.313rem;
+  position: relative;
+}
+.icons8 {
+  height: 1.5rem;
+  width: 1.5rem;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.color,
+.opacity {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  mix-blend-mode: normal;
+}
+.color {
+  position: absolute;
+  left: 0;
+  background-color: var(--primary-main-06adb7);
+}
+.opacity {
+  background-color: var(--grey-white-ffffff);
+  opacity: 0.6;
+}
+.bar,
+.opacity,
+.progress1 {
+  position: absolute;
+  left: 0;
+}
+.bar {
+  height: 16.67%;
+  width: 100.42%;
+  top: 41.67%;
+  right: -0.42%;
+  bottom: 41.67%;
+  mix-blend-mode: normal;
+}
+.progress1 {
+  width: 60.25%;
+  top: calc(50% - 2px);
+  right: 39.75%;
+  background-color: var(--primary-main-06adb7);
+  height: 0.25rem;
+  overflow: hidden;
+}
+.progress {
+  height: 0.75rem;
+  width: 7.438rem;
+  position: relative;
+  display: none;
+}
+.dividerIcon2 {
+  height: 0.063rem;
+  width: 17.188rem;
+  position: relative;
+}
+.step2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0 var(--padding-base);
+  gap: 0 1rem;
+}
+.fRAME,
+.mYPLANNew {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.fRAME {
+  width: 25rem;
+  flex-direction: column;
+  text-align: left;
+  font-size: var(--font-size-smi);
+  color: var(--grey-white-ffffff);
+  font-family: var(--caption);
+}
+.mYPLANNew {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0;
+}
+.icons9 {
+  height: 1.5rem;
+  width: 1.5rem;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+  min-height: 1.5rem;
+}
+.extended {
+  position: relative;
+  font-size: var(--button-size);
+  letter-spacing: 0.4px;
+  line-height: 1.5rem;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-family: var(--caption);
+  color: var(--grey-white-ffffff);
+  text-align: left;
+}
+.importSteps,
+.masterextendedmedium {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.masterextendedmedium {
+  border-radius: var(--br-5xl);
+  background-color: var(--color-turquoise);
+  box-shadow: var(--shadow-6);
+  overflow: hidden;
+  padding: var(--padding-5xs) var(--padding-smi) var(--padding-5xs)
+    var(--padding-base);
+  gap: 0 0.5rem;
+}
+.importSteps {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--gradient-grey);
+}
+.frameMainContent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-base);
+}
+.icons10 {
+  height: 1.5rem;
+  width: 1.5rem;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 1.5rem;
+}
+.extended1,
+.masterextendedmedium1 {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+.extended1 {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: 0.4px;
+  line-height: 1.5rem;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.masterextendedmedium1 {
+  height: 2.5rem;
+  border-radius: var(--br-5xl);
+  background-color: var(--color-turquoise);
+  box-shadow: var(--shadow-6);
+  overflow: hidden;
+  flex-direction: row;
+  padding: var(--padding-5xs) var(--padding-base);
+  gap: 0 0.438rem;
+}
+.masterextendedmedium1,
+.myplanNew,
+.plusSteps {
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.plusSteps {
+  width: 8.563rem;
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  padding: 0 var(--padding-10xl) 0 0;
+  cursor: pointer;
+  text-align: left;
+  font-size: var(--button-size);
+  color: var(--grey-white-ffffff);
+  font-family: var(--caption);
+}
+.myplanNew {
+  width: 100%;
+  position: relative;
+  background-color: var(--grey-white-ffffff);
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 0 0 var(--padding-13xl);
+  gap: 7.75rem 0;
+  text-align: center;
+  font-size: var(--caption-size);
+  color: var(--text-secondary);
+  font-family: var(--button);
+}

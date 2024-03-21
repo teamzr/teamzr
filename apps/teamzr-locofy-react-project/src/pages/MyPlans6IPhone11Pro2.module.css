@@ -1,0 +1,732 @@
+.statusBarBg {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.textFrame {
+  flex: 1;
+  position: relative;
+}
+.carrier,
+.receptionIcon,
+.wifiIcon {
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.carrier {
+  width: 4.375rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 var(--padding-lg) 0 0;
+  box-sizing: border-box;
+  opacity: 0.9;
+  mix-blend-mode: normal;
+}
+.receptionIcon,
+.wifiIcon {
+  height: 0.75rem;
+  position: relative;
+}
+.wifiIcon {
+  width: 1rem;
+  object-fit: cover;
+}
+.receptionIcon {
+  width: 0.75rem;
+}
+.receptionWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-8xs) 0 0;
+}
+.batteryIcon {
+  height: 0.813rem;
+  width: 0.5rem;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.appBarMenu,
+.batteryIcon {
+  position: relative;
+}
+.instance,
+.time {
+  display: flex;
+  flex-direction: row;
+}
+.time {
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+  opacity: 0.9;
+  mix-blend-mode: normal;
+  z-index: 1;
+}
+.instance {
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-12xs) 0 0;
+  gap: 0 0.563rem;
+}
+.rect,
+.statusBar {
+  align-self: stretch;
+  position: relative;
+}
+.statusBar {
+  background-color: var(--primary-dark);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: var(--padding-8xs) var(--padding-5xs) var(--padding-9xs);
+  z-index: 2;
+}
+.rect {
+  flex: 1;
+  background-color: var(--primary-main-06adb7);
+  box-shadow: var(--shadow-4-app-bar);
+}
+.appBarItems {
+  height: 100%;
+  width: 100%;
+  margin: 0 !important;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.icons {
+  height: 1.5rem;
+  width: 1.5rem;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.masterlarge {
+  height: 3rem;
+  width: 3rem;
+  border-radius: var(--br-29xl);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-xs);
+  box-sizing: border-box;
+}
+.appBarnavigationIcon,
+.iconButtonlargeprimarydefa {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.appBarnavigationIcon {
+  cursor: pointer;
+  z-index: 1;
+}
+.appBarnavigationIconWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-base) 0 0;
+}
+.stepNrStep {
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.1px;
+  line-height: 140%;
+}
+.appBartitlenormal,
+.typography {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.appBartitlenormal {
+  overflow: hidden;
+  min-width: 10.063rem;
+  z-index: 1;
+}
+.icons1 {
+  height: 1.5rem;
+  width: 1.5rem;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.masterlarge2 {
+  height: 3rem;
+  width: 3rem;
+  border-radius: var(--br-29xl);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-xs);
+  box-sizing: border-box;
+}
+.iconButtonlargeprimarydefa1 {
+  justify-content: center;
+}
+.appbarmenu,
+.iconButtonlargeprimarydefa1,
+.masterlarge1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.masterlarge1 {
+  justify-content: center;
+  z-index: 1;
+}
+.appbarmenu {
+  align-self: stretch;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  padding: var(--padding-9xs) var(--padding-9xs) var(--padding-9xs)
+    var(--padding-xs);
+  position: relative;
+  font-size: var(--subtitle3-size);
+  color: var(--grey-white-ffffff);
+}
+.masterelementslineIcon {
+  height: 0;
+  width: 6.875rem;
+  position: relative;
+  display: none;
+}
+.tabContent {
+  position: relative;
+  letter-spacing: 0.4px;
+  line-height: 1.5rem;
+  text-transform: uppercase;
+}
+.masterelementstextdefault {
+  padding: 0 var(--padding-mid) 0 var(--padding-base);
+}
+.masterelementstextdefault,
+.mastertexthorizontal,
+.tab {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.mastertexthorizontal {
+  padding: var(--padding-xs) var(--padding-xs) var(--padding-xs)
+    var(--padding-smi);
+}
+.tab {
+  min-width: 4.438rem;
+}
+.masterelementslineIcon1 {
+  height: 0;
+  width: 6.875rem;
+  position: relative;
+  display: none;
+}
+.tabContent1 {
+  position: relative;
+  letter-spacing: 0.4px;
+  line-height: 1.5rem;
+  text-transform: uppercase;
+}
+.masterelementstextdefault1 {
+  padding: 0 var(--padding-7xs) 0 var(--padding-8xs);
+}
+.masterelementstextdefault1,
+.mastertexthorizontal1,
+.tab1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.mastertexthorizontal1 {
+  padding: var(--padding-xs) var(--padding-xs) var(--padding-xs)
+    var(--padding-smi);
+}
+.tab1 {
+  color: var(--grey-5);
+}
+.tabContent2 {
+  position: relative;
+  letter-spacing: 0.4px;
+  line-height: 1.5rem;
+  text-transform: uppercase;
+}
+.masterelementstextdefault2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0 var(--padding-base) 0 var(--padding-mini);
+}
+.masterelementslineIcon2 {
+  align-self: stretch;
+  height: 0.125rem;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.mastertexthorizontal2,
+.tab2 {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+.mastertexthorizontal2 {
+  height: 3rem;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-xs) 0 0;
+  box-sizing: border-box;
+  gap: 0.75rem 0;
+}
+.tab2 {
+  flex-direction: row;
+  justify-content: center;
+  min-width: 4.438rem;
+  color: var(--primary-main-06adb7);
+}
+.commentsHeaderResize,
+.stepper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.stepper {
+  flex: 1;
+  flex-wrap: wrap;
+}
+.commentsHeaderResize {
+  align-self: stretch;
+  padding: 0 var(--padding-4xl) var(--padding-base) var(--padding-3xl);
+  text-align: center;
+}
+.subtitle3 {
+  position: relative;
+  letter-spacing: 0.15px;
+  line-height: 1.375rem;
+}
+.typography1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: var(--subtitle1-size);
+}
+.pythagoreamTheorem1,
+.pythagoreamTheorem2 {
+  position: relative;
+  letter-spacing: 0.15px;
+  line-height: 143%;
+}
+.pythagoreanTheoremFrame {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 0.813rem 0;
+}
+.appbarFrame,
+.masterElementTextDefault {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-5xl);
+}
+.appbarFrame {
+  flex-direction: column;
+  align-items: center;
+  padding: 0 0 var(--padding-13xl);
+  gap: 0.5rem 0;
+  text-align: left;
+  font-size: var(--button-size);
+  color: var(--text-secondary);
+  font-family: var(--button);
+}
+.icons2 {
+  height: 1.5rem;
+  width: 1.5rem;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.fab,
+.masterroundsmall {
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.masterroundsmall {
+  height: 2.5rem;
+  width: 2.5rem;
+  border-radius: var(--br-xl);
+  background-color: var(--color-turquoise);
+  box-shadow: var(--shadow-6);
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  padding: var(--padding-5xs);
+  box-sizing: border-box;
+}
+.fab {
+  display: none;
+}
+.icons3,
+.tabOne {
+  position: relative;
+}
+.icons3 {
+  width: 1.5rem;
+  height: 1.5rem;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.tabOne {
+  align-self: stretch;
+  flex: 1;
+  letter-spacing: 0.4px;
+  line-height: 166%;
+}
+.content {
+  position: absolute;
+  top: calc(50% - 22px);
+  left: calc(50% - 20.5px);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.bottomNavigation1 {
+  position: absolute;
+  height: 100%;
+  width: 33.33%;
+  top: 0;
+  right: 66.67%;
+  bottom: 0;
+  left: 0;
+  background-color: var(--grey-white-ffffff);
+}
+.icons4 {
+  width: 1.5rem;
+  height: 1.5rem;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.tabOne1 {
+  align-self: stretch;
+  height: 1.25rem;
+  position: relative;
+  letter-spacing: 0.15px;
+  line-height: 143%;
+  display: inline-block;
+}
+.content1 {
+  position: absolute;
+  top: calc(50% - 22px);
+  left: calc(50% - 27.5px);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.bottomNavigation2 {
+  position: absolute;
+  height: 100%;
+  width: 33.33%;
+  top: 0;
+  right: 33.33%;
+  bottom: 0;
+  left: 33.33%;
+  background-color: var(--grey-white-ffffff);
+  font-size: var(--button-size);
+  color: var(--primary-main-06adb7);
+}
+.icons5 {
+  width: 1.5rem;
+  height: 1.5rem;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.tabOne2 {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.4px;
+  line-height: 166%;
+}
+.content2 {
+  position: absolute;
+  top: calc(50% - 22px);
+  left: calc(50% - 26.5px);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.bottomNavigation3 {
+  position: absolute;
+  height: 100%;
+  width: 33.33%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 66.67%;
+  background-color: var(--grey-white-ffffff);
+  font-family: var(--caption);
+}
+.bottomNavigation {
+  align-self: stretch;
+  height: 3.5rem;
+  position: relative;
+  box-shadow: var(--menubar-shadow);
+  display: none;
+  text-align: center;
+  font-size: var(--caption-size);
+  color: var(--text-secondary);
+  font-family: var(--button);
+}
+.subtitle31 {
+  position: relative;
+  letter-spacing: 0.15px;
+  line-height: 1.375rem;
+}
+.pythagoreanTheoremFrame1,
+.typography2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.pythagoreanTheoremFrame1 {
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-7xs);
+  font-size: var(--subtitle1-size);
+}
+.overall {
+  position: relative;
+  letter-spacing: 0.15px;
+  line-height: 143%;
+}
+.ratinglargefullDefaultIcon,
+.ratinglargefullDefaultIcon1,
+.ratinglargeinactiveIcon,
+.ratinglargeinactiveIcon1,
+.ratinglargeinactiveIcon2 {
+  height: 1.875rem;
+  width: 1.875rem;
+  position: relative;
+  min-height: 1.875rem;
+}
+.overallInfoFrame,
+.ratingLargeFullDefault,
+.ratingset {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.overallInfoFrame,
+.ratingLargeFullDefault {
+  align-self: stretch;
+  justify-content: flex-end;
+}
+.overallInfoFrame {
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 0.25rem 0;
+}
+.individual {
+  position: relative;
+  letter-spacing: 0.15px;
+  line-height: 143%;
+}
+.ratingmediumfullDefaultIcon {
+  height: 1.5rem;
+  width: 1.5rem;
+  position: relative;
+}
+.ratingmediumfullDefaultIcon1,
+.ratingmediumfullDefaultIcon2,
+.ratingmediumfullDefaultIcon3,
+.ratingmediumfullDefaultIcon4,
+.ratingmediumfullDefaultIcon5,
+.ratingmediumfullDefaultIcon6,
+.ratingmediumfullDefaultIcon7,
+.ratingmediumfullDefaultIcon8,
+.ratingmediumfullDefaultIcon9,
+.ratingmediuminactiveIcon,
+.ratingmediuminactiveIcon1,
+.ratingmediuminactiveIcon10,
+.ratingmediuminactiveIcon11,
+.ratingmediuminactiveIcon12,
+.ratingmediuminactiveIcon13,
+.ratingmediuminactiveIcon14,
+.ratingmediuminactiveIcon2,
+.ratingmediuminactiveIcon3,
+.ratingmediuminactiveIcon4,
+.ratingmediuminactiveIcon5,
+.ratingmediuminactiveIcon6,
+.ratingmediuminactiveIcon7,
+.ratingmediuminactiveIcon8,
+.ratingmediuminactiveIcon9 {
+  height: 1.5rem;
+  width: 1.5rem;
+  position: relative;
+  margin-left: -0.219rem;
+}
+.ratingmediumfullDefaultParent {
+  align-self: stretch;
+  width: 7.5rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.individualRatingsFrame,
+.ratingMediumFrame,
+.statusBarFrame {
+  flex: 1;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.ratingMediumFrame {
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-11xs);
+}
+.individualRatingsFrame,
+.statusBarFrame {
+  flex-direction: column;
+  gap: 0.5rem 0;
+}
+.individualRatingsFrame {
+  padding: 0 0 var(--padding-9xs);
+}
+.statusBarFrame {
+  width: 15.5rem;
+  font-size: var(--button-size);
+}
+.comments1 {
+  width: 14.75rem;
+  position: relative;
+  letter-spacing: 0.15px;
+  line-height: 1.375rem;
+  display: flex;
+  align-items: center;
+}
+.header {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.vectorIcon {
+  height: 0.45rem;
+  width: 0.9rem;
+  position: relative;
+  object-fit: contain;
+  display: none;
+}
+.comments,
+.headerResize {
+  align-self: stretch;
+  display: flex;
+  justify-content: flex-start;
+}
+.headerResize {
+  flex-direction: row;
+  align-items: center;
+  gap: 0 1.375rem;
+}
+.comments {
+  flex-direction: column;
+  align-items: flex-start;
+}
+.subtitle32 {
+  position: relative;
+  letter-spacing: 0.15px;
+  line-height: 1.375rem;
+}
+.typography3 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.frameTabContent,
+.myPlans6Iphone11Pro,
+.typographyInfo {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.typographyInfo {
+  align-self: stretch;
+  flex: 1;
+  flex-direction: column;
+  gap: 2rem 0;
+}
+.frameTabContent,
+.myPlans6Iphone11Pro {
+  box-sizing: border-box;
+  text-align: left;
+}
+.frameTabContent {
+  width: 20.938rem;
+  height: 24.188rem;
+  flex-direction: row;
+  padding: 0 var(--padding-5xl);
+  font-size: var(--subtitle1-size);
+  color: var(--text-secondary);
+  font-family: var(--button);
+}
+.myPlans6Iphone11Pro {
+  width: 100%;
+  position: relative;
+  background-color: var(--grey-white-ffffff);
+  overflow: hidden;
+  flex-direction: column;
+  padding: 0 0 9.063rem;
+  font-size: var(--font-size-smi);
+  color: var(--grey-white-ffffff);
+  font-family: var(--caption);
+}

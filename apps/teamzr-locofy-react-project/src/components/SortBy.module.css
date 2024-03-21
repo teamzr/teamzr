@@ -1,0 +1,314 @@
+.icons {
+  height: 1.25rem;
+  width: 1.25rem;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.mastersmall {
+  border-radius: var(--br-29xl);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 var(--padding-3xs);
+}
+.iconButton {
+  height: 2.5rem;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.randomText {
+  width: 3.875rem;
+  position: relative;
+  letter-spacing: 0.4px;
+  line-height: 166%;
+  display: inline-block;
+  box-sizing: border-box;
+  padding-right: var(--padding-xl);
+}
+.frameList,
+.text {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.text {
+  flex: 1;
+  align-items: center;
+}
+.frameList {
+  width: 6.25rem;
+  align-items: flex-start;
+  padding: 0 var(--padding-9xs);
+  box-sizing: border-box;
+}
+.mastersmall1 {
+  margin: 0;
+  width: 2.5rem;
+  height: 1.25rem;
+  border-radius: var(--br-29xl);
+}
+.iconButton1 {
+  height: 2.5rem;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.mastersmall2 {
+  margin: 0;
+  width: 2.5rem;
+  height: 1.25rem;
+  border-radius: var(--br-29xl);
+}
+.iconButton2 {
+  height: 2.5rem;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.icons1 {
+  height: 1.25rem;
+  width: 1.25rem;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.iconButton4,
+.mastersmall3 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.mastersmall3 {
+  height: 1.25rem;
+  width: 1.25rem;
+  border-radius: var(--br-29xl);
+  justify-content: flex-start;
+}
+.iconButton4 {
+  justify-content: center;
+}
+.randomText1 {
+  position: relative;
+  letter-spacing: 0.4px;
+  line-height: 166%;
+}
+.text1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 var(--padding-2xl) 0 0;
+}
+.randomText2 {
+  position: relative;
+  letter-spacing: 0.4px;
+  line-height: 166%;
+}
+.text2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 var(--padding-mid) 0 0;
+}
+.randomText3 {
+  position: relative;
+  letter-spacing: 0.4px;
+  line-height: 166%;
+}
+.text3 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 var(--padding-3xs) 0 0;
+}
+.frameWithText,
+.iconButton3,
+.secondFrame {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameWithText {
+  flex: 1;
+  flex-direction: column;
+  gap: 0.5rem 0;
+}
+.iconButton3,
+.secondFrame {
+  flex-direction: row;
+}
+.iconButton3 {
+  flex: 1;
+  gap: 0 0.125rem;
+}
+.secondFrame {
+  align-self: stretch;
+  padding: 0 var(--padding-9xs) 0 var(--padding-11xs);
+  color: var(--text-primary);
+}
+.dividerIcon,
+.icons2 {
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.dividerIcon {
+  align-self: stretch;
+  height: 0.063rem;
+  max-width: 100%;
+}
+.icons2 {
+  height: 1.25rem;
+  width: 1.25rem;
+}
+.mastersmall4 {
+  border-radius: var(--br-29xl);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 var(--padding-3xs);
+}
+.iconButton5 {
+  height: 2.5rem;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.randomText4 {
+  width: 3.375rem;
+  position: relative;
+  letter-spacing: 0.4px;
+  line-height: 166%;
+  display: inline-block;
+  box-sizing: border-box;
+  padding-right: var(--padding-xl);
+}
+.frameList1,
+.text4 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.text4 {
+  flex: 1;
+  align-items: center;
+}
+.frameList1 {
+  width: 6.25rem;
+  align-items: flex-start;
+  padding: 0 var(--padding-9xs);
+  box-sizing: border-box;
+}
+.mastersmall5 {
+  margin: 0;
+  width: 2.5rem;
+  height: 1.25rem;
+  border-radius: var(--br-29xl);
+}
+.iconButton6 {
+  height: 2.5rem;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.icons3 {
+  height: 1.25rem;
+  width: 1.25rem;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.iconButton7,
+.mastersmall6 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.mastersmall6 {
+  height: 1.25rem;
+  width: 1.25rem;
+  border-radius: var(--br-29xl);
+  justify-content: flex-start;
+}
+.iconButton7 {
+  justify-content: center;
+}
+.randomText5 {
+  position: relative;
+  letter-spacing: 0.4px;
+  line-height: 166%;
+}
+.text5 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 var(--padding-15xl) 0 0;
+}
+.randomText6 {
+  position: relative;
+  letter-spacing: 0.4px;
+  line-height: 166%;
+}
+.text6 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 var(--padding-7xl) 0 0;
+}
+.fifthFrame,
+.iconButtonWithText,
+.sortBy,
+.thirdFrame {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.fifthFrame {
+  flex-direction: column;
+  gap: 0.5rem 0;
+}
+.iconButtonWithText,
+.sortBy,
+.thirdFrame {
+  flex-direction: row;
+}
+.iconButtonWithText {
+  gap: 0 0.125rem;
+}
+.sortBy,
+.thirdFrame {
+  padding: 0 var(--padding-9xs) 0 var(--padding-11xs);
+  color: var(--text-primary);
+}
+.sortBy {
+  width: 7.5rem;
+  position: relative;
+  border-radius: var(--br-9xs);
+  background-color: var(--grey-white-ffffff);
+  box-shadow: var(--shadow-8-dropdown);
+  overflow: hidden;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: var(--padding-xs) 0;
+  box-sizing: border-box;
+  gap: 0.25rem 0;
+  max-width: 100%;
+  max-height: 100%;
+  text-align: left;
+  font-size: var(--caption-size);
+  color: var(--text-secondary);
+  font-family: var(--button);
+}

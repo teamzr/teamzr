@@ -1,0 +1,27 @@
+.badgeIcon,
+.krokspIcon {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.badgeIcon {
+  height: 28.25%;
+  width: 28.25%;
+  top: 70.5%;
+  right: 1.25%;
+  bottom: 1.25%;
+  left: 70.5%;
+  display: none;
+}
+.badgekrokSp {
+  width: 100%;
+  height: 2.5rem;
+  position: relative;
+}

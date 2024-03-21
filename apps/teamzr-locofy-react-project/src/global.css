@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --button: Lato;
+  --caption: Roboto;
+  --font-open-sans: "Open Sans";
+
+  /* font sizes */
+  --button-size: 0.875rem;
+  --h6-size: 1.25rem;
+  --caption-size: 0.75rem;
+  --subtitle1-size: 1rem;
+  --subtitle3-size: 1.125rem;
+  --font-size-smi: 0.813rem;
+  --font-size-2xs: 0.688rem;
+  --h5-size: 1.5rem;
+
+  /* Colors */
+  --grey-white-ffffff: #fff;
+  --primary-main-06adb7: #06adb7;
+  --primary-border: rgba(6, 173, 183, 0.5);
+  --other-backdrop: rgba(0, 0, 0, 0.5);
+  --color-gray-100: rgba(0, 0, 0, 0.26);
+  --color-gray-200: rgba(255, 255, 255, 0.6);
+  --text-primary1: rgba(0, 0, 0, 0.87);
+  --grey-1: rgba(0, 0, 0, 0.86);
+  --text-secondary: rgba(0, 0, 0, 0.54);
+  --color-darkslategray-100: #424242;
+  --text-primary: #333;
+  --color-turquoise: #14d8c8;
+  --grey-5: #bdbdbd;
+  --grey-grey-700: #616161;
+  --grey-3: #4f4f4f;
+  --primary-dark: #047980;
+  --grey-7-f2f2f2: #f2f2f2;
+  --color-lightsteelblue: #bcd1ff;
+  --info-main: #009cff;
+  --success-main: #14d866;
+  --success-dark: #0e9747;
+  --warning-main: #fe8c00;
+  --warning-dark: #ff512f;
+  --gradient-orange: #f09819;
+  --other-divider: #e0e0e0;
+
+  /* Gaps */
+  --gap-7xl: 1.625rem;
+  --gap-smi: 0.813rem;
+  --gap-9xs: 0.25rem;
+  --gap-5xs: 0.5rem;
+  --gap-0: 0rem;
+  --gap-6xs: 0.438rem;
+  --gap-11xs: 0.125rem;
+  --gap-10xs: 0.188rem;
+  --gap-3xs: 0.625rem;
+  --gap-4xl: 1.438rem;
+  --gap-xs: 0.75rem;
+  --gap-2xs: 0.688rem;
+  --gap-8xs: 0.313rem;
+  --gap-7xs: 0.375rem;
+  --gap-base: 1rem;
+  --gap-12xs: 0.063rem;
+  --gap-5xl: 1.5rem;
+  --gap-sm: 0.875rem;
+  --gap-11xl: 1.875rem;
+  --gap-lg: 1.125rem;
+  --gap-3xl: 1.375rem;
+
+  /* Paddings */
+  --padding-base: 1rem;
+  --padding-13xl: 2rem;
+  --padding-xl: 1.25rem;
+  --padding-7xs: 0.375rem;
+  --padding-15xl: 2.125rem;
+  --padding-17xl: 2.25rem;
+  --padding-21xl: 2.5rem;
+  --padding-23xl: 2.625rem;
+  --padding-5xl: 1.5rem;
+  --padding-5xs: 0.5rem;
+  --padding-xs: 0.75rem;
+  --padding-8xs: 0.313rem;
+  --padding-10xs: 0.188rem;
+  --padding-16xl: 2.188rem;
+  --padding-11xl: 1.875rem;
+  --padding-10xl: 1.813rem;
+  --padding-9xs: 0.25rem;
+  --padding-sm: 0.875rem;
+  --padding-smi: 0.813rem;
+  --padding-mini: 0.938rem;
+  --padding-2xs: 0.688rem;
+  --padding-12xs: 0.063rem;
+  --padding-lg: 1.125rem;
+  --padding-6xl: 1.563rem;
+  --padding-11xs: 0.125rem;
+  --padding-4xs: 0.563rem;
+  --padding-3xs: 0.625rem;
+  --padding-14xl: 2.063rem;
+  --padding-mid: 1.063rem;
+  --padding-3xl: 1.375rem;
+  --padding-9xl: 1.75rem;
+  --padding-12xl: 1.938rem;
+  --padding-7xl: 1.625rem;
+  --padding-18xl: 2.313rem;
+  --padding-37xl: 3.5rem;
+  --padding-4xl: 1.438rem;
+  --padding-2xl: 1.313rem;
+  --padding-6xs: 0.438rem;
+  --padding-93xl: 7rem;
+  --padding-8xl: 1.688rem;
+  --padding-132xl: 9.438rem;
+  --padding-22xl: 2.563rem;
+
+  /* Border radiuses */
+  --br-base: 16px;
+  --br-xl: 20px;
+  --br-11xs: 2px;
+  --br-5xl: 24px;
+  --br-29xl: 48px;
+  --br-9xs: 4px;
+  --br-21xl: 40px;
+  --br-lg: 18px;
+  --br-xs: 12px;
+  --br-3xs: 10px;
+  --br-mini: 15px;
+  --br-5xs: 8px;
+
+  /* Effects */
+  --main-shadow: 0px 24px 64px rgba(0, 0, 0, 0.04);
+  --menubar-shadow: 0px -2px 4px rgba(0, 0, 0, 0.1);
+  --shadow-1-card: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+    0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12);
+  --shadow-6: 0px 3px 5px -1px rgba(0, 0, 0, 0.2),
+    0px 6px 10px rgba(0, 0, 0, 0.14), 0px 1px 18px rgba(0, 0, 0, 0.12);
+  --elevation-04: 0px 2px 4px rgba(117, 131, 142, 0.04),
+    0px 8px 16px rgba(52, 60, 68, 0.1);
+  --shadow-4-app-bar: 0px 2px 4px -1px rgba(0, 0, 0, 0.2),
+    0px 4px 5px rgba(0, 0, 0, 0.14), 0px 1px 10px rgba(0, 0, 0, 0.12);
+  --shadow-2: 0px 3px 1px -2px rgba(0, 0, 0, 0.2),
+    0px 2px 2px rgba(0, 0, 0, 0.14), 0px 1px 5px rgba(0, 0, 0, 0.12);
+  --shadow-8-dropdown: 0px 5px 5px -3px rgba(0, 0, 0, 0.2),
+    0px 8px 10px 1px rgba(0, 0, 0, 0.14), 0px 3px 14px 2px rgba(0, 0, 0, 0.12);
+}

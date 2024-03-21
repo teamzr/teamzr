@@ -1,0 +1,1837 @@
+.icons {
+  height: 1.5rem;
+  width: 1.5rem;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.krokuzavenSOdmnouChild,
+.path277Icon {
+  position: absolute;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.krokuzavenSOdmnouChild {
+  height: 58.82%;
+  width: calc(100% - 16px);
+  top: 20.59%;
+  right: 0.5rem;
+  bottom: 20.59%;
+  left: 0.5rem;
+}
+.path277Icon {
+  height: 16.47%;
+  width: 31.35%;
+  top: 50.37%;
+  right: 33.85%;
+  bottom: 33.16%;
+  left: 34.79%;
+}
+.step1 {
+  align-self: stretch;
+  height: 1.5rem;
+  position: relative;
+  letter-spacing: 0.15px;
+  line-height: 150%;
+  display: inline-block;
+}
+.step1Wrapper {
+  position: absolute;
+  height: 17.65%;
+  width: 53.13%;
+  top: 31.84%;
+  right: 23.44%;
+  bottom: 50.51%;
+  left: 23.44%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.krokuzavenSOdmnouItem {
+  position: absolute;
+  top: 1.25rem;
+  left: 0;
+  border-radius: 50%;
+  border: 0 solid var(--success-main);
+  box-sizing: border-box;
+  width: 6rem;
+  height: 6rem;
+}
+.badgeIcon {
+  position: absolute;
+  right: 0.563rem;
+  bottom: 1.813rem;
+  width: 1.5rem;
+  height: 1.5rem;
+  display: none;
+}
+.ikonacoinIcon {
+  position: absolute;
+  height: 17.65%;
+  width: 25%;
+  top: 61.03%;
+  right: 9.38%;
+  bottom: 21.32%;
+  left: 65.63%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.krokuzavenSOdmnou {
+  height: 8.5rem;
+  width: 6rem;
+  position: relative;
+}
+.closedDdmmyyyy,
+.formatAsTable,
+.theDiscoveryOf {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: 0.15px;
+  display: flex;
+}
+.formatAsTable {
+  height: 1.375rem;
+  line-height: 1.375rem;
+  color: var(--text-primary);
+  align-items: flex-end;
+}
+.closedDdmmyyyy,
+.theDiscoveryOf {
+  height: 6.25rem;
+  font-size: var(--button-size);
+  line-height: 143%;
+  align-items: center;
+}
+.closedDdmmyyyy {
+  height: 1.25rem;
+  font-size: var(--caption-size);
+  letter-spacing: 0.4px;
+  line-height: 166%;
+  align-items: flex-end;
+}
+.formatAsTableParent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-9xs);
+  box-sizing: border-box;
+  gap: 0.25rem 0;
+  min-width: 8.938rem;
+  text-align: left;
+  color: var(--text-secondary);
+}
+.icons1 {
+  height: 1.5rem;
+  width: 1.5rem;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+.progressIcon {
+  height: 9.125rem;
+  width: 0.75rem;
+  position: relative;
+  object-fit: contain;
+}
+.step {
+  width: 25rem;
+  display: none;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-9xs);
+  box-sizing: border-box;
+  gap: 0 0.25rem;
+  z-index: 0;
+}
+.dividerIcon {
+  height: 1.5rem;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+}
+.step2 {
+  align-self: stretch;
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 0 var(--padding-base);
+  z-index: 1;
+}
+.dividerIcon1,
+.icons2 {
+  height: 0.063rem;
+  width: 2.313rem;
+  position: relative;
+}
+.icons2 {
+  height: 1.5rem;
+  width: 1.5rem;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.color,
+.opacity {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  mix-blend-mode: normal;
+}
+.color {
+  position: absolute;
+  left: 0;
+  background-color: var(--primary-main-06adb7);
+}
+.opacity {
+  background-color: var(--grey-white-ffffff);
+  opacity: 0.6;
+}
+.bar,
+.opacity,
+.progress1 {
+  position: absolute;
+  left: 0;
+}
+.bar {
+  height: 16.67%;
+  width: 100.42%;
+  top: 41.67%;
+  right: -0.42%;
+  bottom: 41.67%;
+  mix-blend-mode: normal;
+}
+.progress1 {
+  width: 60.25%;
+  top: calc(50% - 2px);
+  right: 39.75%;
+  background-color: var(--primary-main-06adb7);
+  height: 0.25rem;
+  overflow: hidden;
+}
+.progress {
+  height: 0.75rem;
+  width: 7.438rem;
+  position: relative;
+  display: none;
+}
+.dividerIcon2 {
+  height: 0.063rem;
+  width: 15.625rem;
+  position: relative;
+}
+.statusBarBg,
+.step3 {
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  right: 0;
+  left: 0;
+}
+.step3 {
+  bottom: -0.937rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0 var(--padding-base) 0;
+  box-sizing: border-box;
+  gap: 0 1rem;
+}
+.statusBarBg {
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.image {
+  flex: 1;
+  position: relative;
+}
+.carrier,
+.receptionIcon,
+.wifiIcon {
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.carrier {
+  width: 4.375rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 var(--padding-lg) 0 0;
+  box-sizing: border-box;
+  opacity: 0.9;
+  mix-blend-mode: normal;
+}
+.receptionIcon,
+.wifiIcon {
+  height: 0.75rem;
+  position: relative;
+}
+.wifiIcon {
+  width: 1rem;
+  object-fit: cover;
+}
+.receptionIcon {
+  width: 0.75rem;
+}
+.nAMEDRANGESFORM {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-8xs) 0 0;
+}
+.batteryIcon {
+  height: 0.813rem;
+  width: 0.5rem;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.batteryIcon,
+.text {
+  position: relative;
+}
+.time,
+.wifiParent {
+  display: flex;
+  flex-direction: row;
+}
+.time {
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+  opacity: 0.9;
+  mix-blend-mode: normal;
+  z-index: 1;
+}
+.wifiParent {
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-12xs) 0 0;
+  gap: 0 0.563rem;
+}
+.rect,
+.statusBar {
+  align-self: stretch;
+  position: relative;
+}
+.statusBar {
+  background-color: var(--primary-dark);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: var(--padding-8xs) var(--padding-5xs) var(--padding-9xs);
+  z-index: 2;
+}
+.rect {
+  flex: 1;
+  background-color: var(--primary-main-06adb7);
+  box-shadow: var(--shadow-4-app-bar);
+}
+.appBarItems {
+  height: 100%;
+  width: 100%;
+  margin: 0 !important;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.icons3 {
+  height: 1.5rem;
+  width: 1.5rem;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.masterlarge {
+  height: 3rem;
+  width: 3rem;
+  border-radius: var(--br-29xl);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-xs);
+  box-sizing: border-box;
+}
+.appBarnavigationIcon,
+.iconButtonlargeprimarydefa {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.appBarnavigationIcon {
+  cursor: pointer;
+  z-index: 1;
+}
+.appbarMenuItems {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-base) 0 0;
+}
+.stepNrStep {
+  position: relative;
+  letter-spacing: 0.1px;
+  line-height: 140%;
+}
+.appBartitlenormal,
+.typography {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.appBartitlenormal {
+  overflow: hidden;
+  z-index: 1;
+}
+.icons4 {
+  height: 1.5rem;
+  width: 1.5rem;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.masterlarge2 {
+  height: 3rem;
+  width: 3rem;
+  border-radius: var(--br-29xl);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-xs);
+  box-sizing: border-box;
+}
+.iconButtonlargeprimarydefa1 {
+  justify-content: center;
+}
+.appbarmenu,
+.iconButtonlargeprimarydefa1,
+.masterlarge1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.masterlarge1 {
+  justify-content: center;
+  cursor: pointer;
+  z-index: 1;
+}
+.appbarmenu {
+  justify-content: flex-start;
+  padding: var(--padding-9xs) var(--padding-9xs) var(--padding-9xs)
+    var(--padding-xs);
+  position: relative;
+  font-size: var(--subtitle3-size);
+  font-family: var(--button);
+}
+.imageIcon {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.cardsItemVariant4,
+.titleText {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  box-sizing: border-box;
+}
+.titleText {
+  width: 100%;
+  border: 0;
+  outline: 0;
+  background-color: var(--color-gray-100);
+  height: 2.5rem;
+  flex: 1;
+  align-items: center;
+  padding: var(--padding-9xs);
+  font-family: var(--button);
+  font-weight: 700;
+  font-size: var(--h6-size);
+  color: var(--grey-white-ffffff);
+  min-width: 12.875rem;
+  z-index: 1;
+}
+.cardsItemVariant4 {
+  align-self: stretch;
+  height: 15.125rem;
+  align-items: flex-end;
+  padding: var(--padding-base);
+  position: relative;
+}
+.beTheExcel,
+.notAbleTo {
+  margin: 0;
+}
+.notAbleToContainer {
+  width: 21.438rem;
+  position: relative;
+  letter-spacing: 0.15px;
+  line-height: 143%;
+  display: inline-block;
+}
+.underlineIcon {
+  align-self: stretch;
+  height: 0.063rem;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.label1 {
+  position: relative;
+  letter-spacing: 0.15px;
+  line-height: 0.75rem;
+}
+.label {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.fillednavigationarrowDropDIcon {
+  height: 1.5rem;
+  width: 1.5rem;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.selectArrow {
+  width: 1.5rem;
+  height: 1.5rem;
+  display: none;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.kg {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: 0.15px;
+  line-height: 150%;
+  display: flex;
+  align-items: center;
+}
+.adornmentStart {
+  height: 1.5rem;
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 var(--padding-12xs) 0 var(--padding-11xs);
+  box-sizing: border-box;
+}
+.selected {
+  position: relative;
+  letter-spacing: 0.15px;
+  line-height: 143%;
+}
+.content,
+.inputText1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: var(--button-size);
+  color: var(--text-primary);
+}
+.content {
+  overflow: hidden;
+  gap: 0 0.625rem;
+  font-size: var(--subtitle1-size);
+  color: var(--text-primary1);
+}
+.input {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-6xs);
+  gap: 0.375rem 0;
+}
+.helperText1 {
+  position: relative;
+  letter-spacing: 0.4px;
+  line-height: 1.25rem;
+}
+.helperText {
+  width: 13.75rem;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.masterlinedense,
+.select {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.masterlinedense {
+  overflow: hidden;
+  gap: 0 0.188rem;
+}
+.select {
+  min-width: 10.938rem;
+}
+.avatarIcon {
+  height: 2.688rem;
+  width: 2.625rem;
+  position: relative;
+  border-radius: var(--br-xl);
+}
+.frameWithText {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 0 var(--padding-13xl);
+  text-align: left;
+  font-size: var(--caption-size);
+}
+.dividerIcon3 {
+  width: 19.438rem;
+  height: 0.063rem;
+  position: relative;
+  display: none;
+}
+.inputText,
+.planheader {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.inputText {
+  align-items: center;
+  padding: var(--padding-base) 0 var(--padding-5xs);
+  gap: 0.5rem 0;
+}
+.planheader {
+  align-items: flex-start;
+  text-align: center;
+  font-size: var(--button-size);
+  color: var(--text-secondary);
+  font-family: var(--button);
+}
+.dividerIcon4 {
+  height: 1rem;
+  width: 21.438rem;
+  position: relative;
+}
+.step4 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.icons5 {
+  height: 1.5rem;
+  width: 1.5rem;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.krokuzavenSOdmnouInner,
+.path277Icon1 {
+  position: absolute;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.krokuzavenSOdmnouInner {
+  height: 83.33%;
+  width: calc(100% - 16px);
+  top: 8.33%;
+  right: 0.5rem;
+  bottom: 8.33%;
+  left: 0.5rem;
+}
+.path277Icon1 {
+  height: 23.33%;
+  width: 31.35%;
+  top: 50.52%;
+  right: 33.85%;
+  bottom: 26.15%;
+  left: 34.79%;
+  z-index: 1;
+}
+.step11 {
+  position: relative;
+  letter-spacing: 0.15px;
+  line-height: 150%;
+}
+.step1Container {
+  position: absolute;
+  height: 25%;
+  width: 53.13%;
+  top: 23.96%;
+  right: 22.92%;
+  bottom: 51.04%;
+  left: 23.96%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+.ellipseDiv {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  border: 0 solid var(--success-main);
+  box-sizing: border-box;
+  width: 6rem;
+  height: 6rem;
+  z-index: 2;
+}
+.badgeIcon1 {
+  position: absolute;
+  right: 0.563rem;
+  bottom: 0.563rem;
+  width: 1.5rem;
+  height: 1.5rem;
+  display: none;
+}
+.ikonacoinIcon1 {
+  position: absolute;
+  height: 25%;
+  width: 25%;
+  top: 65.63%;
+  right: 9.38%;
+  bottom: 9.38%;
+  left: 65.63%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  z-index: 3;
+}
+.krokuzavenSOdmnou1 {
+  height: 6rem;
+  width: 6rem;
+  position: relative;
+}
+.namedRanges {
+  position: relative;
+  letter-spacing: 0.15px;
+  line-height: 1.375rem;
+  color: var(--text-primary);
+}
+.dueDateDdmmyyyy,
+.thisWeekYou {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--button-size);
+  letter-spacing: 0.15px;
+  line-height: 143%;
+}
+.dueDateDdmmyyyy {
+  font-size: var(--caption-size);
+  letter-spacing: 0.4px;
+  line-height: 166%;
+}
+.stepLearningContainer {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0.25rem 0;
+  min-width: 8.563rem;
+  text-align: left;
+  color: var(--text-secondary);
+}
+.icons6 {
+  height: 1.5rem;
+  width: 1.5rem;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+.iconsParent {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 0 0.25rem;
+}
+.color1,
+.opacity1 {
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  mix-blend-mode: normal;
+}
+.color1 {
+  position: absolute;
+  width: 100%;
+  right: 0;
+  left: 0;
+  background-color: var(--info-main);
+}
+.opacity1 {
+  background-color: var(--grey-white-ffffff);
+  opacity: 0.6;
+}
+.bar1,
+.opacity1,
+.progress3,
+.progressHalf {
+  position: absolute;
+  width: 100%;
+  right: 0;
+  left: 0;
+}
+.bar1 {
+  height: 16.67%;
+  top: 41.67%;
+  bottom: 41.67%;
+  display: none;
+  mix-blend-mode: normal;
+}
+.progress3,
+.progressHalf {
+  top: calc(50% - 2px);
+  border-radius: var(--br-9xs) 0 0 var(--br-9xs);
+  background-color: var(--info-main);
+  height: 0.25rem;
+}
+.progressHalf {
+  width: 60%;
+  right: 40%;
+  overflow: hidden;
+  display: none;
+}
+.icons7,
+.progress2 {
+  width: 21.5rem;
+  height: 0.75rem;
+  position: relative;
+}
+.icons7 {
+  width: 1.5rem;
+  height: 1.5rem;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.step5,
+.timedivider {
+  align-items: center;
+  justify-content: center;
+}
+.timedivider {
+  display: none;
+  flex-direction: column;
+  padding: var(--padding-xl) var(--padding-5xl);
+  gap: 0.625rem 0;
+}
+.step5 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-9xs);
+  gap: 0 0.25rem;
+  cursor: pointer;
+  text-align: center;
+  font-size: var(--subtitle1-size);
+  color: var(--grey-white-ffffff);
+  font-family: var(--button);
+}
+.dividerIcon5 {
+  height: 1rem;
+  width: 21.438rem;
+  position: relative;
+}
+.step6 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.icons8 {
+  height: 1.5rem;
+  width: 1.5rem;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.krokprobhSOdmnouZlohaChild,
+.path25Icon {
+  position: absolute;
+  height: 83.33%;
+  width: calc(100% - 16px);
+  top: 8.33%;
+  right: 0.5rem;
+  bottom: 8.33%;
+  left: 0.5rem;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.path25Icon {
+  height: 31.35%;
+  width: calc(100% - 80.9px);
+  top: 48.54%;
+  right: 2.556rem;
+  bottom: 20.1%;
+  left: 2.5rem;
+  z-index: 1;
+}
+.step21 {
+  position: relative;
+  letter-spacing: 0.15px;
+  line-height: 150%;
+}
+.thesenodesareemptyoridenticalt {
+  position: absolute;
+  height: 25%;
+  width: 53.13%;
+  top: 23.96%;
+  right: 22.92%;
+  bottom: 51.04%;
+  left: 23.96%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+}
+.ikonacoinIcon2 {
+  position: absolute;
+  height: 25%;
+  width: 25%;
+  top: 65.63%;
+  right: 9.38%;
+  bottom: 9.38%;
+  left: 65.63%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  z-index: 1;
+}
+.krokprobhSOdmnouZloha {
+  height: 6rem;
+  width: 6rem;
+  position: relative;
+}
+.namedRanges1 {
+  position: relative;
+  letter-spacing: 0.15px;
+  line-height: 1.375rem;
+  color: var(--text-primary);
+}
+.dueDateDdmmyyyy1,
+.thisWeekYou1 {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--button-size);
+  letter-spacing: 0.15px;
+  line-height: 143%;
+}
+.dueDateDdmmyyyy1 {
+  font-size: var(--caption-size);
+  letter-spacing: 0.4px;
+  line-height: 166%;
+}
+.thesenodesaresimilartoeachothe {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0.25rem 0;
+  min-width: 8.563rem;
+  text-align: left;
+  color: var(--text-secondary);
+}
+.icons9 {
+  height: 1.5rem;
+  width: 1.5rem;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+.weeklyLesson {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0 0.25rem;
+}
+.color2 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--info-main);
+}
+.bar2,
+.color2,
+.opacity2 {
+  mix-blend-mode: normal;
+}
+.opacity2 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--color-gray-200);
+  z-index: 1;
+}
+.bar2 {
+  height: 0.125rem;
+  width: 19.938rem;
+  position: relative;
+}
+.progressHalf1 {
+  height: 0.25rem;
+  width: 11.963rem;
+  position: relative;
+  border-radius: var(--br-9xs) 0 0 var(--br-9xs);
+  background-color: var(--info-main);
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 2;
+  margin-left: -19.937rem;
+}
+.progress4 {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-9xs) var(--padding-5xl);
+}
+.icons10 {
+  height: 1.5rem;
+  width: 1.5rem;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.importStepsHeader {
+  width: 22.938rem;
+  margin: 0 !important;
+  position: absolute;
+  bottom: 0.25rem;
+  left: calc(50% - 183.5px);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 0 0.625rem;
+}
+.icons11,
+.step7 {
+  position: relative;
+}
+.step7 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-9xs) var(--padding-9xs) var(--padding-xl);
+  gap: 0.25rem 0;
+  cursor: pointer;
+}
+.icons11 {
+  height: 1.5rem;
+  width: 1.5rem;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+  min-height: 1.5rem;
+}
+.extended {
+  position: relative;
+  font-size: var(--button-size);
+  letter-spacing: 0.4px;
+  line-height: 1.5rem;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-family: var(--caption);
+  color: var(--grey-white-ffffff);
+  text-align: left;
+}
+.importSteps,
+.masterextendedmedium {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.masterextendedmedium {
+  border-radius: var(--br-5xl);
+  background-color: var(--color-turquoise);
+  box-shadow: var(--shadow-6);
+  overflow: hidden;
+  padding: var(--padding-5xs) var(--padding-smi) var(--padding-5xs)
+    var(--padding-base);
+  gap: 0 0.5rem;
+}
+.importSteps {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--gradient-grey);
+  margin: 0 !important;
+  position: absolute;
+  right: 1rem;
+  bottom: 1.438rem;
+  z-index: 1;
+}
+.appbartitlenormal,
+.stepsProgressBar {
+  align-self: stretch;
+  display: flex;
+  color: var(--grey-white-ffffff);
+}
+.stepsProgressBar {
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  text-align: center;
+  font-size: var(--subtitle1-size);
+  font-family: var(--button);
+}
+.appbartitlenormal {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: left;
+  font-size: var(--font-size-smi);
+  font-family: var(--caption);
+}
+.dividerIcon6,
+.icons12 {
+  height: 0.063rem;
+  width: 2.313rem;
+  position: relative;
+}
+.icons12 {
+  height: 1.5rem;
+  width: 1.5rem;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.color3,
+.opacity3 {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  mix-blend-mode: normal;
+}
+.color3 {
+  position: absolute;
+  left: 0;
+  background-color: var(--primary-main-06adb7);
+}
+.opacity3 {
+  background-color: var(--grey-white-ffffff);
+  opacity: 0.6;
+}
+.bar3,
+.opacity3,
+.progress6 {
+  position: absolute;
+  left: 0;
+}
+.bar3 {
+  height: 16.67%;
+  width: 100.42%;
+  top: 41.67%;
+  right: -0.42%;
+  bottom: 41.67%;
+  mix-blend-mode: normal;
+}
+.progress6 {
+  width: 60.25%;
+  top: calc(50% - 2px);
+  right: 39.75%;
+  background-color: var(--primary-main-06adb7);
+  height: 0.25rem;
+  overflow: hidden;
+}
+.progress5 {
+  height: 0.75rem;
+  width: 7.438rem;
+  position: relative;
+  display: none;
+}
+.dividerIcon7 {
+  height: 0.063rem;
+  width: 15.625rem;
+  position: relative;
+}
+.step8 {
+  margin: 0 !important;
+  position: absolute;
+  width: 100%;
+  right: 0;
+  bottom: -11.062rem;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0 var(--padding-base) 0;
+  box-sizing: border-box;
+  gap: 0 1rem;
+}
+.icons13 {
+  height: 1.5rem;
+  width: 1.5rem;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.dateLabelWithCoinChild {
+  height: 5rem;
+  width: 5rem;
+  position: absolute;
+  margin: 0 !important;
+  bottom: -2.75rem;
+  left: -0.937rem;
+}
+.step31 {
+  position: relative;
+  letter-spacing: 0.15px;
+  line-height: 150%;
+}
+.step3Wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  z-index: 1;
+}
+.dateLabelWithCoin,
+.dateLabelWithCoin1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.dateLabelWithCoin1 {
+  position: relative;
+}
+.dateLabelWithCoin {
+  padding: 0 var(--padding-smi) 0 0;
+}
+.ikonacoinIcon3 {
+  height: 1.5rem;
+  width: 1.5rem;
+  position: relative;
+  z-index: 1;
+}
+.dateLabelWithCoin2 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 0 var(--padding-21xl);
+}
+.namedRangeFormattingLabel {
+  width: 2rem;
+  height: 1.919rem;
+  position: absolute;
+  margin: 0 !important;
+  right: 1.813rem;
+  bottom: 1.019rem;
+  z-index: 2;
+}
+.krokspSOdmnou {
+  height: 6rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-xl) var(--padding-4xs) 0 var(--padding-4xl);
+  box-sizing: border-box;
+  position: relative;
+  gap: 1.188rem 0;
+}
+.namedRanges2 {
+  position: relative;
+  letter-spacing: 0.15px;
+  line-height: 1.375rem;
+  color: var(--text-primary);
+}
+.dueDateDdmmyyyy2,
+.thisWeekYou2 {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--button-size);
+  letter-spacing: 0.15px;
+  line-height: 143%;
+}
+.dueDateDdmmyyyy2 {
+  font-size: var(--caption-size);
+  letter-spacing: 0.4px;
+  line-height: 166%;
+}
+.stepIndicatorWithDate {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0;
+  box-sizing: border-box;
+  gap: 0.25rem 0;
+  min-width: 8.563rem;
+  text-align: left;
+  color: var(--text-secondary);
+}
+.icons14 {
+  height: 1.5rem;
+  width: 1.5rem;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+.stepIndicator {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 var(--padding-9xs) 0;
+  gap: 0 0.25rem;
+}
+.color4,
+.opacity4 {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  mix-blend-mode: normal;
+}
+.color4 {
+  position: absolute;
+  left: 0;
+  background-color: var(--info-main);
+}
+.opacity4 {
+  background-color: var(--grey-white-ffffff);
+  opacity: 0.6;
+}
+.bar4,
+.opacity4,
+.progress8 {
+  position: absolute;
+  left: 0;
+}
+.bar4 {
+  height: 16.67%;
+  width: 100%;
+  top: 41.67%;
+  right: 0;
+  bottom: 41.67%;
+  mix-blend-mode: normal;
+}
+.progress8 {
+  width: 60%;
+  top: calc(50% - 2px);
+  right: 40%;
+  border-radius: var(--br-9xs) 0 0 var(--br-9xs);
+  background-color: var(--info-main);
+  height: 0.25rem;
+  overflow: hidden;
+  display: none;
+}
+.icons15,
+.progress7 {
+  width: 24rem;
+  height: 0.75rem;
+  position: relative;
+}
+.icons15 {
+  width: 1.5rem;
+  height: 1.5rem;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.progressParent,
+.step9 {
+  align-items: center;
+  justify-content: center;
+}
+.progressParent {
+  display: none;
+  flex-direction: column;
+  padding: var(--padding-xl) var(--padding-9xs);
+  gap: 0.625rem 0;
+}
+.step9 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-9xs) 0 0;
+  gap: 0 0.25rem;
+  cursor: pointer;
+}
+.dividerIcon8,
+.icons16 {
+  height: 0.063rem;
+  width: 2.313rem;
+  position: relative;
+}
+.icons16 {
+  height: 1.5rem;
+  width: 1.5rem;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.color5,
+.opacity5 {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  mix-blend-mode: normal;
+}
+.color5 {
+  position: absolute;
+  left: 0;
+  background-color: var(--primary-main-06adb7);
+}
+.opacity5 {
+  background-color: var(--grey-white-ffffff);
+  opacity: 0.6;
+}
+.bar5,
+.opacity5,
+.progress10 {
+  position: absolute;
+  left: 0;
+}
+.bar5 {
+  height: 16.67%;
+  width: 100.42%;
+  top: 41.67%;
+  right: -0.42%;
+  bottom: 41.67%;
+  mix-blend-mode: normal;
+}
+.progress10 {
+  width: 60.25%;
+  top: calc(50% - 2px);
+  right: 39.75%;
+  background-color: var(--primary-main-06adb7);
+  height: 0.25rem;
+  overflow: hidden;
+}
+.progress9 {
+  height: 0.75rem;
+  width: 7.438rem;
+  position: relative;
+  display: none;
+}
+.dividerIcon9 {
+  height: 0.063rem;
+  width: 15.625rem;
+  position: relative;
+}
+.step10 {
+  margin: 0 !important;
+  position: absolute;
+  width: 100%;
+  right: 0;
+  bottom: -19.062rem;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0 var(--padding-base) 0;
+  box-sizing: border-box;
+  gap: 0 1rem;
+}
+.icons17 {
+  margin: 0;
+  height: 1.5rem;
+  width: 1.5rem;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.fab,
+.masterroundsmall {
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.masterroundsmall {
+  height: 2.5rem;
+  width: 2.5rem;
+  border-radius: var(--br-xl);
+  background-color: var(--color-turquoise);
+  box-shadow: var(--shadow-6);
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  padding: var(--padding-5xs);
+  box-sizing: border-box;
+}
+.fab {
+  display: none;
+  z-index: 7;
+}
+.icons18 {
+  width: 1.5rem;
+  height: 1.5rem;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.tabOne {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.4px;
+  line-height: 166%;
+}
+.content1 {
+  position: absolute;
+  top: calc(50% - 22px);
+  left: calc(50% - 20.5px);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.bottomNavigation1 {
+  position: absolute;
+  height: 100%;
+  width: 33.33%;
+  top: 0;
+  right: 66.67%;
+  bottom: 0;
+  left: 0;
+  background-color: var(--grey-white-ffffff);
+}
+.icons19 {
+  width: 1.5rem;
+  height: 1.5rem;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.tabOne1 {
+  align-self: stretch;
+  height: 1.25rem;
+  position: relative;
+  letter-spacing: 0.15px;
+  line-height: 143%;
+  display: inline-block;
+}
+.content2 {
+  position: absolute;
+  top: calc(50% - 22px);
+  left: calc(50% - 27.5px);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.bottomNavigation2 {
+  position: absolute;
+  height: 100%;
+  width: 33.33%;
+  top: 0;
+  right: 33.33%;
+  bottom: 0;
+  left: 33.33%;
+  background-color: var(--grey-white-ffffff);
+  font-size: var(--button-size);
+  color: var(--primary-main-06adb7);
+}
+.icons20 {
+  width: 1.5rem;
+  height: 1.5rem;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.tabOne2 {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.4px;
+  line-height: 166%;
+}
+.content3 {
+  position: absolute;
+  top: calc(50% - 22px);
+  left: calc(50% - 26.5px);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.bottomNavigation3 {
+  position: absolute;
+  height: 100%;
+  width: 33.33%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 66.67%;
+  background-color: var(--grey-white-ffffff);
+  font-family: var(--caption);
+}
+.bottomNavigation,
+.icons21 {
+  position: relative;
+  flex-shrink: 0;
+  display: none;
+}
+.bottomNavigation {
+  align-self: stretch;
+  height: 3.5rem;
+  box-shadow: var(--menubar-shadow);
+  z-index: 8;
+  text-align: center;
+  font-size: var(--caption-size);
+  color: var(--text-secondary);
+  font-family: var(--button);
+}
+.icons21 {
+  height: 1.5rem;
+  width: 1.5rem;
+  overflow: hidden;
+}
+.krokNodeIcon {
+  height: 5rem;
+  width: 5rem;
+  position: relative;
+}
+.unknownNodeIcon {
+  height: 2rem;
+  width: 1.275rem;
+  position: absolute;
+  margin: 0 !important;
+  right: 2.225rem;
+  bottom: 0.938rem;
+  z-index: 1;
+}
+.step13 {
+  position: relative;
+  letter-spacing: 0.15px;
+  line-height: 150%;
+  display: none;
+}
+.kroknedefinovn,
+.step1Frame {
+  flex-direction: row;
+  box-sizing: border-box;
+}
+.step1Frame {
+  height: 4rem;
+  display: none;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xl) 0;
+  z-index: 2;
+}
+.kroknedefinovn {
+  height: 6rem;
+  width: 6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-5xs) 0 0;
+  position: relative;
+}
+.nameYourStep,
+.tapToSpecify {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: 0.15px;
+  display: none;
+}
+.nameYourStep {
+  height: 1.375rem;
+  line-height: 1.375rem;
+}
+.tapToSpecify {
+  font-size: var(--button-size);
+  line-height: 143%;
+  color: var(--text-secondary);
+}
+.nameYourStepParent {
+  height: 3.75rem;
+  flex: 1;
+  display: none;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-xl) var(--padding-9xs);
+  box-sizing: border-box;
+  gap: 0.25rem 0;
+  text-align: left;
+  color: var(--text-primary);
+}
+.icons22 {
+  height: 1.5rem;
+  width: 1.5rem;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.step12 {
+  align-self: stretch;
+  height: 6.5rem;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-9xs) var(--padding-13xl) 0;
+  box-sizing: border-box;
+  gap: 0 0.25rem;
+  cursor: pointer;
+}
+.icons23 {
+  height: 1.5rem;
+  width: 1.5rem;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 1.5rem;
+}
+.extended1,
+.masterextendedmedium1 {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+.extended1 {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: 0.4px;
+  line-height: 1.5rem;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.masterextendedmedium1 {
+  height: 2.5rem;
+  border-radius: var(--br-5xl);
+  background-color: var(--color-turquoise);
+  box-shadow: var(--shadow-6);
+  overflow: hidden;
+  flex-direction: row;
+  padding: var(--padding-5xs) var(--padding-base);
+  gap: 0 0.438rem;
+}
+.masterextendedmedium1,
+.myplanExcel,
+.plusSteps {
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.plusSteps {
+  width: 8.563rem;
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  padding: 0 var(--padding-10xl) 0 0;
+  cursor: pointer;
+  z-index: 10;
+  text-align: left;
+  font-size: var(--button-size);
+  font-family: var(--caption);
+}
+.myplanExcel {
+  width: 100%;
+  height: 50.75rem;
+  position: relative;
+  background-color: var(--grey-white-ffffff);
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0;
+  gap: 1.5rem 0;
+  text-align: center;
+  font-size: var(--subtitle1-size);
+  color: var(--grey-white-ffffff);
+  font-family: var(--button);
+}
